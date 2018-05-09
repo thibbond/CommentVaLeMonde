@@ -1,0 +1,463 @@
+[
+    {
+        "date": "2018-05-09 16h23",
+        "titre": {
+            "0": "Soup\u00e7ons croissants contre l'avocat de Trump"
+        },
+        "coordonnees": {
+            "Soup\u00e7ons": {
+                "status": false
+            },
+            "Trump": {
+                "status": false
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-09 16h19",
+        "titre": {
+            "0": "Trump: le sommet avec Kim n?aura pas lieu \u00e0 la fronti\u00e8re entre les deux Cor\u00e9es"
+        },
+        "coordonnees": {
+            "Trump": {
+                "status": false
+            },
+            "Kim": {
+                "status": false
+            },
+            "Cor\u00e9es": {
+                "status": true,
+                "latitude": 37.66399759999999,
+                "longitude": 127.9784585,
+                "types": [
+                    "colloquial_area",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-09 16h19",
+        "titre": {
+            "0": "Trump: le sommet avec Kim n?aura pas lieu \u00e0 la fronti\u00e8re entre les deux Cor\u00e9es"
+        },
+        "coordonnees": {
+            "Trump": {
+                "status": false
+            },
+            "Kim": {
+                "status": false
+            },
+            "Cor\u00e9es": {
+                "status": true,
+                "latitude": 37.66399759999999,
+                "longitude": 127.9784585,
+                "types": [
+                    "colloquial_area",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-09 16h15",
+        "titre": {
+            "0": "Iran : Macron et Rohani veulent oeuvrer ensemble pour pr\u00e9server l'accord"
+        },
+        "coordonnees": {
+            "Iran": {
+                "status": true,
+                "latitude": 32.427908,
+                "longitude": 53.688046,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Macron": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Rohani": {
+                "status": false
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-09 16h14",
+        "titre": {
+            "0": "Iran : Macron et Rohani veulent oeuvrer ensemble pour pr\u00e9server l'accord"
+        },
+        "coordonnees": {
+            "Iran": {
+                "status": true,
+                "latitude": 32.427908,
+                "longitude": 53.688046,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Macron": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Rohani": {
+                "status": false
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-09 16h12",
+        "titre": {
+            "0": "Syrie: 15 morts dont huit Iraniens dans la frappe nocturne attribu\u00e9e \u00e0 Isra\u00ebl"
+        },
+        "coordonnees": {
+            "Syrie": {
+                "status": true,
+                "latitude": 34.80207499999999,
+                "longitude": 38.996815,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Iraniens": {
+                "status": true,
+                "latitude": 32.427908,
+                "longitude": 53.688046,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Isra\u00ebl": {
+                "status": true,
+                "latitude": 31.046051,
+                "longitude": 34.851612,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-09 16h09",
+        "titre": {
+            "0": "Les mangroves, des milieux tr\u00e8s riches et menac\u00e9s"
+        },
+        "coordonnees": {
+            "Les": {
+                "status": false
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-09 16h05",
+        "titre": {
+            "0": "Accord nucl\u00e9aire: l'Iran exige des garanties pour rester"
+        },
+        "coordonnees": {
+            "Accord": {
+                "status": false
+            },
+            "Iran": {
+                "status": true,
+                "latitude": 32.427908,
+                "longitude": 53.688046,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-09 16h03",
+        "titre": {
+            "0": "Comment sauver l'accord sur le nucl\u00e9aire iranien?"
+        },
+        "coordonnees": {
+            "Comment": []
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-09 15h41",
+        "titre": {
+            "0": "Madagascar: replanter la mangrove pour am\u00e9liorer le quotidien des p\u00eacheurs"
+        },
+        "coordonnees": {
+            "Madagascar": {
+                "status": true,
+                "latitude": -18.766947,
+                "longitude": 46.869107,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-09 15h35",
+        "titre": {
+            "0": "Le Festival de Cannes pourra diffuser en cl\u00f4ture \"Don Quichotte\""
+        },
+        "coordonnees": {
+            "Le": {
+                "status": false
+            },
+            "Festival": {
+                "status": false
+            },
+            "Cannes": {
+                "status": true,
+                "latitude": 43.552847,
+                "longitude": 7.017369,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Don": {
+                "status": false
+            },
+            "Quichotte": {
+                "status": false
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-09 15h32",
+        "titre": {
+            "0": "Terry Gilliam: l'imagination comme seule \u00e9chappatoire"
+        },
+        "coordonnees": {
+            "Terry": {
+                "status": false
+            },
+            "Gilliam": {
+                "status": true,
+                "latitude": 39.2333592,
+                "longitude": -93.0046373,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-09 15h30",
+        "titre": {
+            "0": "D\u00e9c\u00e8s de Naomi Musenga: enqu\u00eate pr\u00e9liminaire et suspension de l'op\u00e9ratrice du Samu"
+        },
+        "coordonnees": {
+            "D\u00e9c\u00e8s": {
+                "status": false
+            },
+            "Naomi": {
+                "status": false
+            },
+            "Musenga": [],
+            "Samu": []
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-09 15h25",
+        "titre": {
+            "0": "Accord nucl\u00e9aire: l'Iran exige des garanties pour rester"
+        },
+        "coordonnees": {
+            "Accord": {
+                "status": false
+            },
+            "Iran": {
+                "status": true,
+                "latitude": 32.427908,
+                "longitude": 53.688046,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-09 15h22",
+        "titre": {
+            "0": "Isra\u00ebl donne 14 jours au directeur de HRW pour quitter le pays"
+        },
+        "coordonnees": {
+            "Isra\u00ebl": {
+                "status": true,
+                "latitude": 31.046051,
+                "longitude": 34.851612,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "HRW": {
+                "status": false
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-09 15h19",
+        "titre": {
+            "0": "Le Festival de Cannes pourra diffuser en cl\u00f4ture \"Don Quichotte\""
+        },
+        "coordonnees": {
+            "Le": {
+                "status": false
+            },
+            "Festival": {
+                "status": false
+            },
+            "Cannes": {
+                "status": true,
+                "latitude": 43.552847,
+                "longitude": 7.017369,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Don": {
+                "status": false
+            },
+            "Quichotte": {
+                "status": false
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-09 15h17",
+        "titre": {
+            "0": "Arm\u00e9nie: Pachinian au Karabakh pour son premier d\u00e9placement comme Premier ministre"
+        },
+        "coordonnees": {
+            "Arm\u00e9nie": {
+                "status": true,
+                "latitude": 40.069099,
+                "longitude": 45.038189,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Pachinian": [],
+            "Karabakh": {
+                "status": true,
+                "latitude": 39.796249,
+                "longitude": 46.6550799,
+                "types": [
+                    "colloquial_area",
+                    "political"
+                ]
+            },
+            "Premier": {
+                "status": false
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-09 15h12",
+        "titre": {
+            "0": "D\u00e9c\u00e8s de Naomi Musenga: ouverture d'une enqu\u00eate pr\u00e9liminaire"
+        },
+        "coordonnees": {
+            "D\u00e9c\u00e8s": {
+                "status": false
+            },
+            "Naomi": {
+                "status": false
+            },
+            "Musenga": []
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-09 15h10",
+        "titre": {
+            "0": "La candidate \u00e0 la t\u00eate de la CIA promet de ne pas recourir \u00e0 la torture"
+        },
+        "coordonnees": {
+            "La": {
+                "status": true,
+                "latitude": 34.0522342,
+                "longitude": -118.2436849,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "CIA": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-09 15h08",
+        "titre": {
+            "0": "La candidate \u00e0 la t\u00eate de la CIA promet de ne pas recourir \u00e0 la torture"
+        },
+        "coordonnees": {
+            "La": {
+                "status": true,
+                "latitude": 34.0522342,
+                "longitude": -118.2436849,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "CIA": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 1
+    }
+]
