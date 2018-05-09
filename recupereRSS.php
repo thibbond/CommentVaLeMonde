@@ -23,7 +23,6 @@
 			$tableau[$i]['date'] = $date;
 			$titre = $item->title;
 			$tableau[$i]['titre'] = $titre[0];
-			$tableau[$i]['coordonnees'] = analyseToponyme($tableau[$i]['titre'][0]);
 			$tableau[$i]['positivite'] = $i % 3;
 			/* TEST - foreach($tableau[$i]['coordonnees'] as $cle => $valeur)
 				echo("Dans recupereDepeches(), tableau[ " . $i . "]['coordonnees']['latitude'] = " . $tableau[$i]['coordonnees'][$cle]['latitude'] . "\n");
@@ -50,9 +49,11 @@
 		// TEST - echo("Nombre de mots = $nb_de_mots\n");
 		for($i=0; $i<$nb_de_mots; $i++)
 			if(preg_match($expression, $mots[$i])){
-				// TEST - echo("" . $mots[$i] . " commence par une majuscule\n");
-				$coordonnees[$mots[$i]] = recupereCoordonnees($mots[$i]);
-				// TEST - echo("Dans analyseToponyme(.), coordonnees[" . $mots[$i] . "]['latitude'] = " . $coordonnees[$mots[$i]]['latitude'] . "\n");
+				if ( ($mots[$i] != "Le") && ($mots[$i] != "La") && ($mots[$i] != "Les") && ($mots[$i] != "Un") && ($mots[$i] != "Une") && ($mots[$i] != "Des") ){
+					// TEST - echo("" . $mots[$i] . " commence par une majuscule\n");
+					$coordonnees[$mots[$i]] = recupereCoordonnees($mots[$i]);
+					// TEST - echo("Dans analyseToponyme(.), coordonnees[" . $mots[$i] . "]['latitude'] = " . $coordonnees[$mots[$i]]['latitude'] . "\n");
+				}
 			}
 		// TEST - echo("\n\n\n\n");
 		return $coordonnees;
@@ -69,8 +70,9 @@
 		// TEST - echo("Recuperation des coordonnees de $adresse\n");
 		$cleAPIGoogleMaps = 'AIzaSyCSKYf8twyuQfJYZYIgE8qHxcrOhZJsuDo'; // Clé que j'ai récupéré sur le site de l'API Google Maps (je n'ai pas lu les conditions d'utilisations... ), nécéssaire pour avoir une réponse aux requêtes.
 		$cleZak = 'AIzaSyBnLHV0Uq6qBmHs-O0ThzpzB1Ma7CZIdvs';
+		$autreCle = 'AIzaSyA9DXz98lN5tdgO8vHkqy7jfrQypfdr_zU';
 
-		$reponseJSON = file_get_contents("https://maps.googleapis.com/maps/api/geocode/json?address=$adresse&key=$cleZak"); // Contient sous forme de chaîne de caractères le contenu affiché de la page web résultant de la requête.
+		$reponseJSON = file_get_contents("https://maps.googleapis.com/maps/api/geocode/json?address=$adresse&key=$cleAPIGoogleMaps"); // Contient sous forme de chaîne de caractères le contenu affiché de la page web résultant de la requête.
 
 		/*
 			Le contenu retourné par la requête est au format JSON. (SUPER !)
@@ -78,14 +80,15 @@
 
 		$reponseTab = json_decode($reponseJSON, true); // Nous convertissons la chaîne de caractères en un tableau.
 		
-		if ($reponseTab == false)
-			$coordonnees = "erreur lors de la récupération des coordonnees";
-		else{
-			$coordonnees = array();
-			echo($reponseTab['status']);
+		$coordonnees = array();
+		$coordonnees['status'] = false;
+		
+		if ($reponseTab == false){
+			echo ("erreur lors de la récupération des coordonnees");
+			$coordonnees['erreur_recuperation'] = true;
+		}else{
+			echo("Statut de la réponse de GoogleMaps pour le nom propre " . $adresse . " : " . $reponseTab['status'] . "\n");
 			if ($reponseTab['status'] == "OK"){
-				echo("status ok");
-				$coordonnees['status'] = false;
 				for($i = 0; $i < count($reponseTab['results']); $i++){
 					for($j=0; $j < count($reponseTab['results'][$i]['types']); $j++){
 						if($reponseTab['results'][$i]['types'][$j] == "political"){
@@ -161,18 +164,19 @@
 		do{
 			$i--;
 			$date_a_comparer = convertionDate($depeches_du_site[$i]['date']);
-		}
-		while ( ($i > 0) && ($date_a_comparer <= $premiere_date_de_nos_depeches) );
+		}while ( ($i > 0) && ($date_a_comparer <= $premiere_date_de_nos_depeches) );
 		// test :: echo($i\n);
 		
 		if($i > 0){ // Si $i est strictement positif, cela veut dire que la date de la dépêche n° $i de $depeches_du_site est postérieur à la première date de nos dépêches enregistrées. Nous pouvons donc ajouter toutes les autres dépêches du site (de 0 à $i) à nos dépêches. 
-		 for($j= $i; $j > -1; $j--){
-		 	array_unshift($nos_depeches, $depeches_du_site[$j]);
-		 }
+			for($j= $i; $j > -1; $j--){
+			 	array_unshift($nos_depeches, $depeches_du_site[$j]);
+			 	$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['titre'][0]);
+			}
 		}else{
 			if($i == 0){ // Si $i est nulle, alors il faut comparer les dates, et en fonction, ajouter ou non $depeche_du_site[0] à nos dépêches. 
 				if($date_a_comparer > $premiere_date_de_nos_depeches){
 					array_unshift($nos_depeches, $depeches_du_site[0]);
+					$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['titre'][0]);
 				}
 			}
 		}
