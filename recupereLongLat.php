@@ -84,6 +84,6 @@
 		</script>
 		<script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg2msHxBsGxdrwjJAgTkrZMnEmSMcWOmc&callback=initialisation">
 		</script>
-	</bodyonload="initialisation()">
+	</body onload="initialisation()">
 </html>
 
