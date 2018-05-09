@@ -1,0 +1,462 @@
+[
+    {
+        "date": "2018-05-03 08h21",
+        "titre": {
+            "0": "Am\u00e9ricains d\u00e9tenus par Pyongyang: Trump \u00e9voque un d\u00e9nouement proche"
+        },
+        "coordonnees": {
+            "Am\u00e9ricains": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Pyongyang": {
+                "status": true,
+                "latitude": 39.0392193,
+                "longitude": 125.7625241,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Trump": {
+                "status": false
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-03 08h19",
+        "titre": {
+            "0": "L'Espagne attend les adieux de l'ETA"
+        },
+        "coordonnees": {
+            "L": {
+                "status": false
+            },
+            "Espagne": {
+                "status": true,
+                "latitude": 40.463667,
+                "longitude": -3.74922,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "ETA": {
+                "status": false
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-03 08h19",
+        "titre": {
+            "0": "Chine: la veuve du dissident Liu Xiaobo pr\u00eate \"\u00e0 se laisser mourir\""
+        },
+        "coordonnees": {
+            "Chine": {
+                "status": true,
+                "latitude": 35.86166,
+                "longitude": 104.195397,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Liu": {
+                "status": false
+            },
+            "Xiaobo": {
+                "status": false
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-03 08h18",
+        "titre": {
+            "0": "Au Royaume-Uni, des \u00e9lections locales \u00e0 valeur de test"
+        },
+        "coordonnees": {
+            "Au": {
+                "status": false
+            },
+            "Royaume-Uni": {
+                "status": true,
+                "latitude": 55.378051,
+                "longitude": -3.435973,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-03 08h13",
+        "titre": {
+            "0": "Touristes \u00e9trangers en Iran cherchent rials d\u00e9sesp\u00e9rement"
+        },
+        "coordonnees": {
+            "Touristes": {
+                "status": false
+            },
+            "Iran": {
+                "status": true,
+                "latitude": 32.427908,
+                "longitude": 53.688046,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-03 08h12",
+        "titre": {
+            "0": "Hommage aux journalistes afghans pour la Journ\u00e9e mondiale de la libert\u00e9 de la presse"
+        },
+        "coordonnees": {
+            "Hommage": {
+                "status": false
+            },
+            "Journ\u00e9e": {
+                "status": false
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-03 08h03",
+        "titre": {
+            "0": "A Tokyo, un mus\u00e9e num\u00e9rique pour repousser les fronti\u00e8res de l'art"
+        },
+        "coordonnees": {
+            "A": {
+                "status": false
+            },
+            "Tokyo": {
+                "status": true,
+                "latitude": 35.6894875,
+                "longitude": 139.6917064,
+                "types": [
+                    "administrative_area_level_1",
+                    "locality",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-03 08h03",
+        "titre": {
+            "0": "La libert\u00e9 de la presse s\u00e9rieusement mise \u00e0 mal en Birmanie"
+        },
+        "coordonnees": {
+            "La": {
+                "status": true,
+                "latitude": 34.0522342,
+                "longitude": -118.2436849,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Birmanie": {
+                "status": true,
+                "latitude": 21.916221,
+                "longitude": 95.955974,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-03 07h55",
+        "titre": {
+            "0": "Les cheminots dans la rue pour mettre Matignon \"sous pression\""
+        },
+        "coordonnees": {
+            "Les": {
+                "status": false
+            },
+            "Matignon": {
+                "status": false
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-03 07h51",
+        "titre": {
+            "0": "En Tunisie, les jeunes ont des r\u00eaves mais ne croient plus \u00e0 la politique"
+        },
+        "coordonnees": {
+            "En": {
+                "status": false
+            },
+            "Tunisie": {
+                "status": true,
+                "latitude": 33.886917,
+                "longitude": 9.537499,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-03 07h41",
+        "titre": {
+            "0": "Au Royaume-Uni, des \u00e9lections locales \u00e0 valeur de test"
+        },
+        "coordonnees": {
+            "Au": {
+                "status": false
+            },
+            "Royaume-Uni": {
+                "status": true,
+                "latitude": 55.378051,
+                "longitude": -3.435973,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-03 07h28",
+        "titre": {
+            "0": "Universit\u00e9: absents de la mobilisation, les lyc\u00e9ens n'ont peut-\u00eatre pas dit leur dernier mot"
+        },
+        "coordonnees": {
+            "Universit\u00e9": {
+                "status": false
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-03 06h58",
+        "titre": {
+            "0": "Macron en Nouvelle-Cal\u00e9donie pour c\u00e9l\u00e9brer \"notre histoire commune\""
+        },
+        "coordonnees": {
+            "Macron": {
+                "status": false
+            },
+            "Nouvelle-Cal\u00e9donie": {
+                "status": true,
+                "latitude": -20.904305,
+                "longitude": 165.618042,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-03 06h49",
+        "titre": {
+            "0": "Un Saoudien d\u00e9tenu \u00e0 Guantanamo transf\u00e9r\u00e9 dans son pays"
+        },
+        "coordonnees": {
+            "Un": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Saoudien": {
+                "status": true,
+                "latitude": 23.885942,
+                "longitude": 45.079162,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Guantanamo": {
+                "status": false
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-03 06h36",
+        "titre": {
+            "0": "Macron en Nouvelle-Cal\u00e9donie pour c\u00e9l\u00e9brer \"notre histoire commune\""
+        },
+        "coordonnees": {
+            "Macron": {
+                "status": false
+            },
+            "Nouvelle-Cal\u00e9donie": {
+                "status": true,
+                "latitude": -20.904305,
+                "longitude": 165.618042,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-03 06h35",
+        "titre": {
+            "0": "Cor\u00e9e du Sud: le pr\u00e9sident Moon \u00e0 des sommets de popularit\u00e9"
+        },
+        "coordonnees": {
+            "Cor\u00e9e": {
+                "status": true,
+                "latitude": 37.6639976,
+                "longitude": 127.9784585,
+                "types": [
+                    "colloquial_area",
+                    "political"
+                ]
+            },
+            "Sud": {
+                "status": true,
+                "latitude": 18.3320005,
+                "longitude": -73.7007088,
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            "Moon": {
+                "status": false
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-03 06h26",
+        "titre": {
+            "0": "Chine: la veuve du dissident Liu Xiaobo pr\u00eate \"\u00e0 se laisser mourir\""
+        },
+        "coordonnees": {
+            "Chine": {
+                "status": true,
+                "latitude": 35.86166,
+                "longitude": 104.195397,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Liu": {
+                "status": false
+            },
+            "Xiaobo": {
+                "status": false
+            }
+        },
+        "positivite": 1
+    },
+    {
+        "date": "2018-05-03 06h12",
+        "titre": {
+            "0": "L'a\u00e9ronavale fran\u00e7aise s'entra\u00eene en symbiose avec l'US Navy en Virginie"
+        },
+        "coordonnees": {
+            "L": {
+                "status": false
+            },
+            "US": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Navy": {
+                "status": false
+            },
+            "Virginie": {
+                "status": true,
+                "latitude": 37.4315734,
+                "longitude": -78.6568942,
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            }
+        },
+        "positivite": 2
+    },
+    {
+        "date": "2018-05-03 06h07",
+        "titre": {
+            "0": "Trump a rembours\u00e9 \u00e0 son avocat les 130.000 dollars vers\u00e9s \u00e0 Stormy Daniels"
+        },
+        "coordonnees": {
+            "Trump": {
+                "status": false
+            },
+            "Stormy": {
+                "status": false
+            },
+            "Daniels": {
+                "status": false
+            }
+        },
+        "positivite": 0
+    },
+    {
+        "date": "2018-05-03 05h59",
+        "titre": {
+            "0": "Am\u00e9ricains d\u00e9tenus par Pyongyang: Trump \u00e9voque un d\u00e9nouement proche"
+        },
+        "coordonnees": {
+            "Am\u00e9ricains": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Pyongyang": {
+                "status": true,
+                "latitude": 39.0392193,
+                "longitude": 125.7625241,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Trump": {
+                "status": false
+            }
+        },
+        "positivite": 1
+    }
+]
