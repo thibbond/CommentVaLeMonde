@@ -22,7 +22,9 @@
 			$date = date_format($datetime, 'Y-m-d H\hi');
 			$tableau[$i]['date'] = $date;
 			$titre = $item->title;
-			$tableau[$i]['titre'] = $titre[0];
+			$tableau[$i]['titre'] = strval($titre[0]);
+			$tableau[$i]['lien'] = strval($item->link);
+			$tableau[$i]['description'] = strval($item->description);
 			$tableau[$i]['positivite'] = $i % 3;
 			/* TEST - foreach($tableau[$i]['coordonnees'] as $cle => $valeur)
 				echo("Dans recupereDepeches(), tableau[ " . $i . "]['coordonnees']['latitude'] = " . $tableau[$i]['coordonnees'][$cle]['latitude'] . "\n");
@@ -84,10 +86,10 @@
 		$coordonnees['status'] = false;
 		
 		if ($reponseTab == false){
-			echo ("erreur lors de la récupération des coordonnees");
+			// echo ("erreur lors de la récupération des coordonnees");
 			$coordonnees['erreur_recuperation'] = true;
 		}else{
-			echo("Statut de la réponse de GoogleMaps pour le nom propre " . $adresse . " : " . $reponseTab['status'] . "\n");
+			// echo("Statut de la réponse de GoogleMaps pour le nom propre " . $adresse . " : " . $reponseTab['status'] . "\n");
 			if ($reponseTab['status'] == "OK"){
 				for($i = 0; $i < count($reponseTab['results']); $i++){
 					for($j=0; $j < count($reponseTab['results'][$i]['types']); $j++){
@@ -170,13 +172,15 @@
 		if($i > 0){ // Si $i est strictement positif, cela veut dire que la date de la dépêche n° $i de $depeches_du_site est postérieur à la première date de nos dépêches enregistrées. Nous pouvons donc ajouter toutes les autres dépêches du site (de 0 à $i) à nos dépêches. 
 			for($j= $i; $j > -1; $j--){
 			 	array_unshift($nos_depeches, $depeches_du_site[$j]);
-			 	$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['titre'][0]);
+			 	$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['titre']);
+			 	$nos_depeches[0]['coordonnees'] = array_merge($nos_depeches[0]['coordonnees'], analyseToponyme($nos_depeches[0]['description']));
 			}
 		}else{
 			if($i == 0){ // Si $i est nulle, alors il faut comparer les dates, et en fonction, ajouter ou non $depeche_du_site[0] à nos dépêches. 
 				if($date_a_comparer > $premiere_date_de_nos_depeches){
 					array_unshift($nos_depeches, $depeches_du_site[0]);
-					$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['titre'][0]);
+					$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['titre']);
+					$nos_depeches[0]['coordonnees'] = array_merge($nos_depeches[0]['coordonnees'], analyseToponyme($nos_depeches[0]['description']));
 				}
 			}
 		}
