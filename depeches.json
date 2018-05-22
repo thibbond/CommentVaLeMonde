@@ -1,227 +1,744 @@
 [
     {
-        "date": "2018-05-13 13h29",
-        "titre": "J\u00e9rusalem: feu vert du gouvernement isra\u00e9lien \u00e0 un projet de t\u00e9l\u00e9ph\u00e9rique",
+        "date": "2018-05-22 01h04",
+        "titre": "Crash a\u00e9rien \u00e0 Cuba: une des trois survivantes d\u00e9c\u00e8de, le bilan passe \u00e0 111 morts",
         "mots_du_titre": [
-            "J\u00e9rusalem",
-            "feu",
-            "vert",
+            "Crash",
+            "a\u00e9rien",
+            "\u00e0",
+            "Cuba",
+            "une",
+            "des",
+            "trois",
+            "survivantes",
+            "d\u00e9c\u00e8de",
+            "le",
+            "bilan",
+            "passe",
+            "\u00e0",
+            "111",
+            "morts"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/crash-aerien-a-cuba-une-des-trois-survivantes-decede-le-bilan-passe-a-111-morts-5b036cdccd7028f07a200fe0",
+        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5b036cdbcd70c60ea71fcfb9.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>L'une des trois survivantes du crash a\u00e9rien survenu vendredi \u00e0 La Havane est d\u00e9c\u00e9d\u00e9e lundi \u00e0 l'h\u00f4pital, ont annonc\u00e9 les autorit\u00e9s, portant \u00e0 111 morts le bilan de la catastrophe a\u00e9rienne, la plus meurtri\u00e8re sur l'\u00eele depuis pr\u00e8s de 30 ans.La jeune ...",
+        "coordonnees": {
+            "Crash": {
+                "status": false
+            },
+            "Cuba": {
+                "status": true,
+                "latitude": 21.521757,
+                "longitude": -77.781167,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Havane": {
+                "status": true,
+                "latitude": 23.1135925,
+                "longitude": -82.3665956,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "des": {
+                "nature": "PRP:det",
+                "position": 5,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "morts": {
+                "nature": "NOM",
+                "position": 14,
+                "polarite": -3,
+                "taille": 1,
+                "forme_trouvee": "INFSING"
+            },
+            "Crash a\u00e9rien": {
+                "nature": "SUITE_DE_MOTS",
+                "position": 0,
+                "polarite": -3,
+                "taille": 2,
+                "forme_trouvee": "MIN"
+            },
+            "d\u00e9c\u00e8de": {
+                "nature": "VER:pres",
+                "position": 8,
+                "polarite": -3,
+                "taille": 1,
+                "forme_trouvee": "INF"
+            },
+            "le": {
+                "nature": "DET:ART",
+                "position": 9,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "Cuba": {
+                "nature": "NAM",
+                "position": 3,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "MIN"
+            },
+            "passe": {
+                "nature": "VER:pres",
+                "position": 11,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "bilan": {
+                "nature": "NOM",
+                "position": 10,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "trois": {
+                "nature": "NUM",
+                "position": 6,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "\u00e0": {
+                "nature": "PRP",
+                "position": 12,
+                "polarite": 2,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "survivantes": {
+                "nature": "NOM",
+                "position": 7,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INFSING"
+            },
+            "une": {
+                "nature": "NUM",
+                "position": 4,
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            }
+        },
+        "polarite": 1
+    },
+    {
+        "date": "2018-05-22 01h00",
+        "titre": "D\u00e9c\u00e8s d'une des trois survivantes du crash a\u00e9rien \u00e0 Cuba",
+        "mots_du_titre": [
+            "D\u00e9c\u00e8s",
+            "d",
+            "une",
+            "des",
+            "trois",
+            "survivantes",
             "du",
-            "gouvernement",
-            "isra\u00e9lien",
+            "crash",
+            "a\u00e9rien",
             "\u00e0",
-            "un",
-            "projet",
-            "de",
-            "t\u00e9l\u00e9ph\u00e9rique"
+            "Cuba"
         ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/jerusalem-feu-vert-du-gouvernement-israelien-a-un-projet-de-telepherique-5af83dcecd70c60ea6f6f3bc",
-        "description": "<img src=\"https:\/\/o3.llb.be\/image\/5af83dcdcd70c60ea6f6f3b8.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Le gouvernement isra\u00e9lien a donn\u00e9 dimanche son feu vert \u00e0 un investissement de 56 millions de dollars (43 millions d'euros) pour un projet controvers\u00e9 de t\u00e9l\u00e9ph\u00e9rique reliant J\u00e9rusalem-Ouest \u00e0 la Vieille ville, situ\u00e9e \u00e0 J\u00e9rusalem-Est, secteur ...",
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/deces-d-une-des-trois-survivantes-du-crash-aerien-a-cuba-5b036c03cd70c60ea71fcfb6",
+        "description": "<img src=\"https:\/\/o2.ldh.be\/image\/5b036c03cd70c60ea71fcfb4.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>L'une des trois survivantes du crash a\u00e9rien survenu vendredi \u00e0 La Havane est d\u00e9c\u00e9d\u00e9e lundi \u00e0 l'h\u00f4pital, a annonc\u00e9 le minist\u00e8re cubain de la Sant\u00e9, portant \u00e0 111 morts le bilan de la catastrophe a\u00e9rienne, le plus meurtrier sur l'\u00eele depuis pr\u00e8s de 30 ...",
         "coordonnees": {
-            "J\u00e9rusalem": {
-                "status": true,
-                "latitude": 31.768319,
-                "longitude": 35.21371,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "J\u00e9rusalem-Ouest": {
-                "status": true,
-                "latitude": 31.768319,
-                "longitude": 35.21371,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "Vieille": {
+            "D\u00e9c\u00e8s": {
                 "status": false
             },
-            "J\u00e9rusalem-Est": {
+            "Cuba": {
+                "status": true,
+                "latitude": 21.521757,
+                "longitude": -77.781167,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Havane": {
+                "status": true,
+                "latitude": 23.1135925,
+                "longitude": -82.3665956,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Sant\u00e9": {
                 "status": false
             }
         },
-        "positivite": 2
+        "lemmes": {
+            "crash a\u00e9rien": {
+                "position": 7,
+                "nature": "SUITE_DE_MOTS",
+                "polarite": -3,
+                "taille": 2,
+                "forme_trouvee": "INC"
+            },
+            "Cuba": {
+                "position": 10,
+                "nature": "NAM",
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "MIN"
+            },
+            "d": {
+                "position": 1,
+                "nature": "NOM",
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "du": {
+                "position": 6,
+                "nature": "PRP:det",
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "trois": {
+                "position": 4,
+                "nature": "NUM",
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "une": {
+                "position": 2,
+                "nature": "NUM",
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "des": {
+                "position": 3,
+                "nature": "PRP:det",
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            },
+            "D\u00e9c\u00e8s": {
+                "position": 0,
+                "nature": "NOM",
+                "polarite": -3,
+                "taille": 1,
+                "forme_trouvee": "MIN"
+            },
+            "survivantes": {
+                "position": 5,
+                "nature": "NOM",
+                "polarite": 3,
+                "taille": 1,
+                "forme_trouvee": "INFSING"
+            },
+            "\u00e0": {
+                "position": 9,
+                "nature": "PRP",
+                "polarite": 2,
+                "taille": 1,
+                "forme_trouvee": "INC"
+            }
+        },
+        "polarite": 2
     },
     {
-        "date": "2018-05-13 13h27",
-        "titre": "Isra\u00ebl en pleine ferveur pro-am\u00e9ricaine \u00e0 l'aube d'une semaine \u00e0 hauts risques",
+        "date": "2018-05-22 00h37",
+        "titre": "Une ancienne ing\u00e9nieure d'Uber porte plainte pour harc\u00e8lement sexuel",
         "mots_du_titre": [
-            "Isra\u00ebl",
-            "en",
-            "pleine",
-            "ferveur",
-            "pro-am\u00e9ricaine",
-            "\u00e0",
-            "l",
-            "aube",
+            "Une",
+            "ancienne",
+            "ing\u00e9nieure",
             "d",
-            "une",
-            "semaine",
-            "\u00e0",
-            "hauts",
-            "risques"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/israel-en-pleine-ferveur-pro-americaine-a-l-aube-d-une-semaine-a-hauts-risques-5af83d64cd70c60ea6f6f3b7",
-        "description": "<img src=\"https:\/\/o3.llb.be\/image\/5af83d63cd70c60ea6f6f3b5.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Isra\u00ebl baigne dimanche dans la fiert\u00e9 nationale et la ferveur pro-am\u00e9ricaine \u00e0 la veille de l'ouverture sous tr\u00e8s haute tension de l'ambassade des Etats-Unis \u00e0 J\u00e9rusalem et d'une semaine de protestation palestinienne potentiellement explosive.Des ...",
-        "coordonnees": {
-            "Isra\u00ebl": {
-                "status": true,
-                "latitude": 31.046051,
-                "longitude": 34.851612,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "Etats-Unis": {
-                "status": true,
-                "latitude": 37.09024,
-                "longitude": -95.712891,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "J\u00e9rusalem": {
-                "status": true,
-                "latitude": 31.768319,
-                "longitude": 35.21371,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            }
-        },
-        "positivite": 2
-    },
-    {
-        "date": "2018-05-13 13h21",
-        "titre": "Isra\u00ebl en pleine ferveur pro-am\u00e9ricaine \u00e0 l'aube d'une semaine \u00e0 hauts risques",
-        "mots_du_titre": [
-            "Isra\u00ebl",
-            "en",
-            "pleine",
-            "ferveur",
-            "pro-am\u00e9ricaine",
-            "\u00e0",
-            "l",
-            "aube",
-            "d",
-            "une",
-            "semaine",
-            "\u00e0",
-            "hauts",
-            "risques"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/israel-en-pleine-ferveur-pro-americaine-a-l-aube-d-une-semaine-a-hauts-risques-5af83c14cd7028f079f3fb61",
-        "description": "<img src=\"https:\/\/o2.llb.be\/image\/5af83c10cd7028f079f3fb57.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Isra\u00ebl baigne dimanche dans la fiert\u00e9 nationale et la ferveur pro-am\u00e9ricaine \u00e0 la veille de l'ouverture sous tr\u00e8s haute tension de l'ambassade des Etats-Unis \u00e0 J\u00e9rusalem et d'une semaine de protestation palestinienne potentiellement explosive.Des ...",
-        "coordonnees": {
-            "Isra\u00ebl": {
-                "status": true,
-                "latitude": 31.046051,
-                "longitude": 34.851612,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "Etats-Unis": {
-                "status": true,
-                "latitude": 37.09024,
-                "longitude": -95.712891,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "J\u00e9rusalem": {
-                "status": true,
-                "latitude": 31.768319,
-                "longitude": 35.21371,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            }
-        },
-        "positivite": 2
-    },
-    {
-        "date": "2018-05-13 13h17",
-        "titre": "Alison Van Uytvanck acc\u00e8de au tableau final \u00e0 Rome",
-        "mots_du_titre": [
-            "Alison",
-            "Van",
-            "Uytvanck",
-            "acc\u00e8de",
-            "au",
-            "tableau",
-            "final",
-            "\u00e0",
-            "Rome"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/alison-van-uytvanck-accede-au-tableau-final-a-rome-5af83b17cd70c60ea6f6e54c",
-        "description": "Alison Van Uytvanck, 47e joueuse mondiale, s'est qualifi\u00e9e dimanche pour le tableau final du tournoi de tennis de Rome, \u00e9preuve WTA sur terre battue dot\u00e9e de 3.351.720 dollars.Van Uytvanck, 24 ans, a battu au deuxi\u00e8me et dernier tour des ...",
-        "coordonnees": {
-            "Alison": {
-                "status": false
-            },
-            "Van": {
-                "status": false
-            },
-            "Uytvanck": {
-                "status": false
-            },
-            "Rome": {
-                "status": true,
-                "latitude": 41.9027835,
-                "longitude": 12.4963655,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "WTA": {
-                "status": false
-            }
-        },
-        "positivite": 3
-    },
-    {
-        "date": "2018-05-13 13h05",
-        "titre": "En Chine, l'Iranien Zarif entame sa tourn\u00e9e diplomatique pour sauver l'accord nucl\u00e9aire",
-        "mots_du_titre": [
-            "En",
-            "Chine",
-            "l",
-            "Iranien",
-            "Zarif",
-            "entame",
-            "sa",
-            "tourn\u00e9e",
-            "diplomatique",
+            "Uber",
+            "porte",
+            "plainte",
             "pour",
-            "sauver",
+            "harc\u00e8lement",
+            "sexuel"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/une-ancienne-ingenieure-d-uber-porte-plainte-pour-harcelement-sexuel-5b036bb5cd70c60ea71fcfb2",
+        "description": "Une ancienne ing\u00e9nieure d'Uber a port\u00e9 plainte lundi contre l'entreprise pour discriminations et harc\u00e8lement sexuel, accusant notamment d'inertie le d\u00e9partement des ressources humaines du service de r\u00e9servation de voitures avec chauffeur.C'est la ...",
+        "coordonnees": {
+            "Uber": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "pour": {
+                "polarite": 3,
+                "position": 7,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "PRP"
+            },
+            "ancienne": {
+                "polarite": 3,
+                "position": 1,
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "nature": "ADJ"
+            },
+            "d": {
+                "polarite": 3,
+                "position": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "VER:subi"
+            },
+            "Une": {
+                "polarite": 3,
+                "position": 0,
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "nature": "DET:ART"
+            },
+            "plainte": {
+                "polarite": -3,
+                "position": 6,
+                "forme_trouvee": "INF",
+                "taille": 1,
+                "nature": "VER:pper"
+            },
+            "porte": {
+                "polarite": 3,
+                "position": 5,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "VER:pres"
+            },
+            "harc\u00e8lement sexuel": {
+                "polarite": -3,
+                "position": 8,
+                "forme_trouvee": "INC",
+                "taille": 2,
+                "nature": "SUITE_DE_MOTS"
+            },
+            "Uber": {
+                "polarite": 3,
+                "position": 4,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "NAM"
+            }
+        },
+        "polarite": 1
+    },
+    {
+        "date": "2018-05-22 00h33",
+        "titre": "Atterrissage d'urgence d'un avion de la compagnie Saudi Arabian Airlines \u00e0 Jeddah",
+        "mots_du_titre": [
+            "Atterrissage",
+            "d",
+            "urgence",
+            "d",
+            "un",
+            "avion",
+            "de",
+            "la",
+            "compagnie",
+            "Saudi",
+            "Arabian",
+            "Airlines",
+            "\u00e0",
+            "Jeddah"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/atterrissage-d-urgence-d-un-avion-de-la-compagnie-saudi-arabian-airlines-a-jeddah-5b036bb5cd70c60ea71fcfb0",
+        "description": "Un \u00e9quipement d'atterrissage d\u00e9fectueux a forc\u00e9 un airbus de la compagnie Saudi Arabian Airlines de proc\u00e9der \u00e0 un atterrissage d'urgence \u00e0\u00a0Jeddah lundi soir, rapportent les m\u00e9dias locaux.L'A330-200 faisait la liaison entre M\u00e9dine et la capitale du ...",
+        "coordonnees": {
+            "Atterrissage": {
+                "status": false
+            },
+            "Saudi": {
+                "status": true,
+                "latitude": 23.885942,
+                "longitude": 45.079162,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Arabian": {
+                "status": true,
+                "latitude": 19.4914108,
+                "longitude": 47.4490397,
+                "types": [
+                    "colloquial_area",
+                    "political"
+                ]
+            },
+            "Airlines": {
+                "status": false
+            },
+            "Jeddah": {
+                "status": true,
+                "latitude": 21.485811,
+                "longitude": 39.19250479999999,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "A330-200": {
+                "status": false
+            },
+            "M\u00e9dine": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "compagnie": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "NOM",
+                "taille": 1,
+                "position": 8
+            },
+            "de la": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "taille": 2,
+                "position": 6
+            },
+            "un": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "DET:ART",
+                "taille": 1,
+                "position": 4
+            },
+            "Atterrissage d urgence": {
+                "polarite": 2,
+                "forme_trouvee": "MIN",
+                "nature": "SUITE_DE_MOTS",
+                "taille": 3,
+                "position": 0
+            },
+            "avion": {
+                "polarite": 2,
+                "forme_trouvee": "INC",
+                "nature": "NOM",
+                "taille": 1,
+                "position": 5
+            },
+            "d": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "VER:subi",
+                "taille": 1,
+                "position": 3
+            },
+            "Jeddah": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "NAM",
+                "taille": 1,
+                "position": 13
+            },
+            "\u00e0": {
+                "polarite": 2,
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "taille": 1,
+                "position": 12
+            },
+            "Saudi Arabian Airlines": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "taille": 3,
+                "position": 9
+            }
+        },
+        "polarite": 3
+    },
+    {
+        "date": "2018-05-21 23h36",
+        "titre": "Le pr\u00e9sident palestinien Abbas atteint de pneumonie, sant\u00e9 en am\u00e9lioration",
+        "mots_du_titre": [
+            "Le",
+            "pr\u00e9sident",
+            "palestinien",
+            "Abbas",
+            "atteint",
+            "de",
+            "pneumonie",
+            "sant\u00e9",
+            "en",
+            "am\u00e9lioration"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/le-president-palestinien-abbas-atteint-de-pneumonie-sante-en-amelioration-5b03580fcd7028f07a1fe496",
+        "description": "<img src=\"https:\/\/o2.llb.be\/image\/5b03580ecd7028f07a1fe494.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Le pr\u00e9sident palestinien Mahmoud Abbas, hospitalis\u00e9 depuis dimanche \u00e0 83 ans dans un \u00e9tablissement de Ramallah, en Cisjordanie occup\u00e9e, est atteint d'une pneumonie mais son \u00e9tat de sant\u00e9 s'am\u00e9liore, ont indiqu\u00e9 lundi soir des responsables politiques....",
+        "coordonnees": {
+            "Abbas": {
+                "status": false
+            },
+            "Mahmoud": {
+                "status": false
+            },
+            "Ramallah": {
+                "status": true,
+                "latitude": 31.9037641,
+                "longitude": 35.2034184,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Cisjordanie": {
+                "status": true,
+                "latitude": 31.9465703,
+                "longitude": 35.3027226,
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "sant\u00e9": {
+                "nature": "NOM",
+                "polarite": 3,
+                "position": 7,
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "palestinien": {
+                "nature": "ADJ",
+                "polarite": -1,
+                "position": 2,
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "en am\u00e9lioration": {
+                "nature": "SUITE_DE_MOTS",
+                "polarite": 3,
+                "position": 8,
+                "forme_trouvee": "INC",
+                "taille": 2
+            },
+            "pneumonie": {
+                "nature": "NOM",
+                "polarite": -3,
+                "position": 6,
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "atteint de": {
+                "nature": "SUITE_DE_MOTS",
+                "polarite": -3,
+                "position": 4,
+                "forme_trouvee": "INC",
+                "taille": 2
+            },
+            "pr\u00e9sident": {
+                "nature": "NOM",
+                "polarite": 3,
+                "position": 1,
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "Le": {
+                "nature": "DET:ART",
+                "polarite": 3,
+                "position": 0,
+                "forme_trouvee": "MIN",
+                "taille": 1
+            },
+            "Abbas": {
+                "nature": "VER:simp",
+                "polarite": 3,
+                "position": 3,
+                "forme_trouvee": "INC",
+                "taille": 1
+            }
+        },
+        "polarite": 1
+    },
+    {
+        "date": "2018-05-21 23h31",
+        "titre": "P\u00e9rou: Le Parlement nie l'achat de t\u00e9l\u00e9viseurs pour regarder la Coupe du monde",
+        "mots_du_titre": [
+            "P\u00e9rou",
+            "Le",
+            "Parlement",
+            "nie",
+            "l",
+            "achat",
+            "de",
+            "t\u00e9l\u00e9viseurs",
+            "pour",
+            "regarder",
+            "la",
+            "Coupe",
+            "du",
+            "monde"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/perou-le-parlement-nie-l-achat-de-televiseurs-pour-regarder-la-coupe-du-monde-5b0356eacd7028f07a1fe493",
+        "description": "<img src=\"https:\/\/o2.ldh.be\/image\/5b0356e9cd7028f07a1fe491.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Le Parlement p\u00e9ruvien a ni\u00e9 lundi avoir ordonn\u00e9 l'achat de dizaines de t\u00e9l\u00e9viseurs grand \u00e9cran et de frigos minibars pour que les parlementaires puissent regarder les matches de la Coupe du monde en Russie-2018.\"Il est faux que le Congr\u00e8s de la ...",
+        "coordonnees": {
+            "P\u00e9rou": {
+                "status": true,
+                "latitude": -9.189967,
+                "longitude": -75.015152,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Parlement": {
+                "status": false
+            },
+            "Coupe": {
+                "status": false
+            },
+            "Russie-2018": {
+                "status": false
+            },
+            "Il": {
+                "status": true,
+                "latitude": 40.6331249,
+                "longitude": -89.3985283,
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            "Congr\u00e8s": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "de": {
+                "position": 6,
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "taille": 1,
+                "polarite": 3
+            },
+            "l": {
+                "position": 4,
+                "forme_trouvee": "INC",
+                "nature": "VER:pper",
+                "taille": 1,
+                "polarite": 3
+            },
+            "pour": {
+                "position": 8,
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "taille": 1,
+                "polarite": 3
+            },
+            "Le": {
+                "position": 1,
+                "forme_trouvee": "MIN",
+                "nature": "DET:ART",
+                "taille": 1,
+                "polarite": 3
+            },
+            "la Coupe du monde": {
+                "position": 10,
+                "forme_trouvee": "MIN",
+                "nature": "SUITE_DE_MOTS",
+                "taille": 4,
+                "polarite": 2
+            },
+            "Parlement": {
+                "position": 2,
+                "forme_trouvee": "MIN",
+                "nature": "NOM",
+                "taille": 1,
+                "polarite": 3
+            },
+            "nie": {
+                "position": 3,
+                "forme_trouvee": "INF",
+                "nature": "VER:pres",
+                "taille": 1,
+                "polarite": -3
+            },
+            "achat": {
+                "position": 5,
+                "forme_trouvee": "INC",
+                "nature": "NOM",
+                "taille": 1,
+                "polarite": 3
+            },
+            "t\u00e9l\u00e9viseurs": {
+                "position": 7,
+                "forme_trouvee": "INFSING",
+                "nature": "NOM",
+                "taille": 1,
+                "polarite": 3
+            },
+            "P\u00e9rou": {
+                "position": 0,
+                "forme_trouvee": "MIN",
+                "nature": "NAM",
+                "taille": 1,
+                "polarite": 3
+            },
+            "regarder": {
+                "position": 9,
+                "forme_trouvee": "INC",
+                "nature": "VER:infi",
+                "taille": 1,
+                "polarite": 3
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 23h23",
+        "titre": "Mogherini \u00e0 Pompeo: \"Il n'y a pas de solution alternative\" \u00e0 l'accord avec l'Iran",
+        "mots_du_titre": [
+            "Mogherini",
+            "\u00e0",
+            "Pompeo",
+            "Il",
+            "n",
+            "y",
+            "a",
+            "pas",
+            "de",
+            "solution",
+            "alternative",
+            "\u00e0",
             "l",
             "accord",
-            "nucl\u00e9aire"
+            "avec",
+            "l",
+            "Iran"
         ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/en-chine-l-iranien-zarif-entame-sa-tournee-diplomatique-pour-sauver-l-accord-nucleaire-5af8382dcd70c60ea6f6e535",
-        "description": "Le ministre iranien des Affaires \u00e9trang\u00e8res Mohammad Javad Zarif, qui a entam\u00e9 dimanche \u00e0 P\u00e9kin une tourn\u00e9e diplomatique marathon, esp\u00e8re d\u00e9crocher \"un cadre futur clair\" pour l'accord nucl\u00e9aire apr\u00e8s le retrait fracassant des Etats-Unis, mais il ...",
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/mogherini-a-pompeo-il-n-y-a-pas-de-solution-alternative-a-l-accord-avec-l-iran-5b035520cd70c60ea71f5181",
+        "description": "<img src=\"https:\/\/o1.ldh.be\/image\/5b035520cd70c60ea71f517f.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>La cheffe de la diplomatie europ\u00e9enne Federica Mogherini a affirm\u00e9 lundi qu'\"il n'y (avait) pas de solution alternative\" \u00e0 l'accord sur le nucl\u00e9aire avec l'Iran, en r\u00e9ponse au discours de son homologue am\u00e9ricain Mike Pompeo qui a impos\u00e9 des ...",
         "coordonnees": {
-            "Chine": {
+            "Mogherini": {
+                "status": false
+            },
+            "Pompeo": {
+                "status": false
+            },
+            "Il": {
                 "status": true,
-                "latitude": 35.86166,
-                "longitude": 104.195397,
+                "latitude": 40.6331249,
+                "longitude": -89.3985283,
                 "types": [
-                    "country",
+                    "administrative_area_level_1",
                     "political"
                 ]
             },
-            "Iranien": {
+            "Iran": {
                 "status": true,
                 "latitude": 32.427908,
                 "longitude": 53.688046,
@@ -230,26 +747,1507 @@
                     "political"
                 ]
             },
-            "Zarif": {
+            "Federica": {
                 "status": false
             },
-            "Affaires": {
+            "Mike": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "Iran": {
+                "polarite": 3,
+                "position": 16,
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "taille": 1
+            },
+            "avec": {
+                "polarite": 3,
+                "position": 14,
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "a": {
+                "polarite": 3,
+                "position": 6,
+                "nature": "VER:pres",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "Il": {
+                "polarite": 3,
+                "position": 3,
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "taille": 1
+            },
+            "Pompeo": {
+                "polarite": -1,
+                "position": 2,
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "pas": {
+                "polarite": 3,
+                "position": 7,
+                "nature": "ADV",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "alternative": {
+                "polarite": 3,
+                "position": 10,
+                "nature": "ADJ",
+                "forme_trouvee": "INFSING",
+                "taille": 1
+            },
+            "n": {
+                "polarite": 3,
+                "position": 4,
+                "nature": "VER:futu",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "\u00e0": {
+                "polarite": 2,
+                "position": 11,
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "l": {
+                "polarite": 3,
+                "position": 15,
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "accord": {
+                "polarite": 3,
+                "position": 13,
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "de": {
+                "polarite": 3,
+                "position": 8,
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "solution": {
+                "polarite": 3,
+                "position": 9,
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "taille": 1
+            }
+        },
+        "polarite": 3
+    },
+    {
+        "date": "2018-05-21 23h15",
+        "titre": "Protection de la vie priv\u00e9e: des organisations veulent d\u00e9mant\u00e9ler Facebook",
+        "mots_du_titre": [
+            "Protection",
+            "de",
+            "la",
+            "vie",
+            "priv\u00e9e",
+            "des",
+            "organisations",
+            "veulent",
+            "d\u00e9mant\u00e9ler",
+            "Facebook"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/protection-de-la-vie-privee-des-organisations-veulent-demanteler-facebook-5b03534fcd70c60ea71f517e",
+        "description": "Une coalition d'organisations a annonc\u00e9 lundi une campagne pour d\u00e9manteler Facebook, qui poss\u00e8de Instagram, Messenger et WhatsApp, arguant que le r\u00e9seau social tentaculaire \"a trop de pouvoir sur nos vies et sur notre d\u00e9mocratie\".Ces groupes ont ...",
+        "coordonnees": {
+            "Protection": {
                 "status": false
             },
-            "Mohammad": {
+            "Facebook": {
                 "status": false
             },
-            "Javad": {
+            "Instagram": {
                 "status": false
             },
-            "P\u00e9kin": {
+            "Messenger": {
+                "status": false
+            },
+            "WhatsApp": {
+                "status": false
+            },
+            "Ces": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "des": {
+                "nature": "PRP:det",
+                "taille": 1,
+                "polarite": 3,
+                "position": 5,
+                "forme_trouvee": "INC"
+            },
+            "organisations": {
+                "nature": "NOM",
+                "taille": 1,
+                "polarite": 3,
+                "position": 6,
+                "forme_trouvee": "INFSING"
+            },
+            "veulent": {
+                "nature": "VER:pres",
+                "taille": 1,
+                "polarite": 3,
+                "position": 7,
+                "forme_trouvee": "INF"
+            },
+            "Facebook": {
+                "nature": "NAM",
+                "taille": 1,
+                "polarite": 3,
+                "position": 9,
+                "forme_trouvee": "MIN"
+            },
+            "Protection de la vie priv\u00e9e": {
+                "nature": "SUITE_DE_MOTS",
+                "taille": 5,
+                "polarite": 3,
+                "position": 0,
+                "forme_trouvee": "MIN"
+            }
+        },
+        "polarite": 3
+    },
+    {
+        "date": "2018-05-21 22h49",
+        "titre": "Incendie \u00e0 Li\u00e8ge: les habitants sont relog\u00e9s pour la nuit",
+        "mots_du_titre": [
+            "Incendie",
+            "\u00e0",
+            "Li\u00e8ge",
+            "les",
+            "habitants",
+            "sont",
+            "relog\u00e9s",
+            "pour",
+            "la",
+            "nuit"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/incendie-a-liege-les-habitants-sont-reloges-pour-la-nuit-5b034d32cd70c60ea71f2076",
+        "description": "Un important incendie de b\u00e2timent a eu lieu \u00e0 Li\u00e8ge, ont indiqu\u00e9 lundi soir les pompiers de Li\u00e8ge. Les habitants de l'\u00e9tablissement ont d\u00fb \u00eatre relog\u00e9s.Suite \u00e0 une t\u00e9l\u00e9vision qui a accidentellement pris feu, un incendie s'est d\u00e9clar\u00e9 dans un ...",
+        "coordonnees": {
+            "Incendie": {
+                "status": false
+            },
+            "Li\u00e8ge": {
                 "status": true,
-                "latitude": 39.90419989999999,
-                "longitude": 116.4073963,
+                "latitude": 50.6325574,
+                "longitude": 5.5796662,
                 "types": [
                     "locality",
                     "political"
                 ]
+            },
+            "Suite": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "Incendie": {
+                "nature": "NOM",
+                "position": 0,
+                "forme_trouvee": "MIN",
+                "polarite": -3,
+                "taille": 1
+            },
+            "relog\u00e9s": {
+                "nature": "VER:pper",
+                "position": 6,
+                "forme_trouvee": "INF",
+                "polarite": 3,
+                "taille": 1
+            },
+            "les": {
+                "nature": "DET:ART",
+                "position": 3,
+                "forme_trouvee": "INFSING",
+                "polarite": 3,
+                "taille": 1
+            },
+            "sont": {
+                "nature": "VER:pres",
+                "position": 5,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "taille": 1
+            },
+            "pour": {
+                "nature": "PRP",
+                "position": 7,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "taille": 1
+            },
+            "Li\u00e8ge": {
+                "nature": "NAM",
+                "position": 2,
+                "forme_trouvee": "MIN",
+                "polarite": 3,
+                "taille": 1
+            },
+            "habitants": {
+                "nature": "NOM",
+                "position": 4,
+                "forme_trouvee": "INFSING",
+                "polarite": 3,
+                "taille": 1
+            },
+            "\u00e0": {
+                "nature": "PRP",
+                "position": 1,
+                "forme_trouvee": "INC",
+                "polarite": 2,
+                "taille": 1
+            },
+            "la nuit": {
+                "nature": "SUITE_DE_MOTS",
+                "position": 8,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "taille": 2
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 22h36",
+        "titre": "La future rencontre Trump-Kim a d\u00e9j\u00e0 sa m\u00e9daille",
+        "mots_du_titre": [
+            "La",
+            "future",
+            "rencontre",
+            "Trump-Kim",
+            "a",
+            "d\u00e9j\u00e0",
+            "sa",
+            "m\u00e9daille"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/la-future-rencontre-trump-kim-a-deja-sa-medaille-5b034a2ccd7028f07a1fd4fd",
+        "description": "<img src=\"https:\/\/o1.ldh.be\/image\/5b034a2bcd7028f07a1fd4fb.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>La Maison Blanche a fait frapper une m\u00e9daille c\u00e9l\u00e9brant la prochaine rencontre historique entre le pr\u00e9sident am\u00e9ricain Donald Trump et son homologue nord-cor\u00e9en Kim Jong Un.La pi\u00e8ce est orn\u00e9e des profils de MM. Trump et Kim, qualifi\u00e9 de \"leader ...",
+        "coordonnees": {
+            "Trump-Kim": {
+                "status": false
+            },
+            "Maison": {
+                "status": false
+            },
+            "Blanche": {
+                "status": false
+            },
+            "Donald": {
+                "status": false
+            },
+            "Trump": {
+                "status": false
+            },
+            "Kim": {
+                "status": false
+            },
+            "Jong": {
+                "status": false
+            },
+            "MM": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "La": {
+                "forme_trouvee": "MIN",
+                "polarite": 3,
+                "position": 0,
+                "taille": 1,
+                "nature": "DET:ART"
+            },
+            "rencontre": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 2,
+                "taille": 1,
+                "nature": "NOM"
+            },
+            "d\u00e9j\u00e0": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 5,
+                "taille": 1,
+                "nature": "ADV"
+            },
+            "sa": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 6,
+                "taille": 1,
+                "nature": "DET:POS"
+            },
+            "future": {
+                "forme_trouvee": "INFSING",
+                "polarite": 3,
+                "position": 1,
+                "taille": 1,
+                "nature": "ADJ"
+            },
+            "a": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 4,
+                "taille": 1,
+                "nature": "VER:pres"
+            },
+            "m\u00e9daille": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 7,
+                "taille": 1,
+                "nature": "NOM"
+            }
+        },
+        "polarite": 3
+    },
+    {
+        "date": "2018-05-21 22h01",
+        "titre": "Crash d'un avion \u00e0 Cuba - Pronostic \"d\u00e9favorable\" pour deux des trois survivantes",
+        "mots_du_titre": [
+            "Crash",
+            "d",
+            "un",
+            "avion",
+            "\u00e0",
+            "Cuba",
+            "-",
+            "Pronostic",
+            "d\u00e9favorable",
+            "pour",
+            "deux",
+            "des",
+            "trois",
+            "survivantes"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/crash-d-un-avion-a-cuba-pronostic-defavorable-pour-deux-des-trois-survivantes-5b0341e3cd7028f07a1fd4f8",
+        "description": "Le pronostic vital de deux des trois survivantes de l'accident d'avion qui a fait 110 morts vendredi \u00e0 La Havane a \u00e9t\u00e9 d\u00e9grad\u00e9 au stade de \"d\u00e9favorable\", a annonc\u00e9 lundi le responsable de h\u00f4pital o\u00f9 elles sont soign\u00e9es.Les trois patientes, des ...",
+        "coordonnees": {
+            "Crash": {
+                "status": false
+            },
+            "Cuba": {
+                "status": true,
+                "latitude": 21.521757,
+                "longitude": -77.781167,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Pronostic": {
+                "status": false
+            },
+            "Havane": {
+                "status": true,
+                "latitude": 23.1135925,
+                "longitude": -82.3665956,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "survivantes": {
+                "forme_trouvee": "INFSING",
+                "nature": "NOM",
+                "polarite": 3,
+                "position": 13,
+                "taille": 1
+            },
+            "Pronostic": {
+                "forme_trouvee": "MIN",
+                "nature": "NOM",
+                "polarite": 3,
+                "position": 7,
+                "taille": 1
+            },
+            "deux": {
+                "forme_trouvee": "INC",
+                "nature": "NUM",
+                "polarite": 3,
+                "position": 10,
+                "taille": 1
+            },
+            "avion": {
+                "forme_trouvee": "INC",
+                "nature": "NOM",
+                "polarite": 2,
+                "position": 3,
+                "taille": 1
+            },
+            "un": {
+                "forme_trouvee": "INC",
+                "nature": "DET:ART",
+                "polarite": 3,
+                "position": 2,
+                "taille": 1
+            },
+            "pour": {
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "polarite": 3,
+                "position": 9,
+                "taille": 1
+            },
+            "trois": {
+                "forme_trouvee": "INC",
+                "nature": "NUM",
+                "polarite": 3,
+                "position": 12,
+                "taille": 1
+            },
+            "-": {
+                "forme_trouvee": "INC",
+                "nature": "PUN",
+                "polarite": 3,
+                "position": 6,
+                "taille": 1
+            },
+            "Crash": {
+                "forme_trouvee": "MIN",
+                "nature": "NOM",
+                "polarite": -3,
+                "position": 0,
+                "taille": 1
+            },
+            "Cuba": {
+                "forme_trouvee": "MIN",
+                "nature": "NAM",
+                "polarite": 3,
+                "position": 5,
+                "taille": 1
+            },
+            "d\u00e9favorable": {
+                "forme_trouvee": "INC",
+                "nature": "ADJ",
+                "polarite": -3,
+                "position": 8,
+                "taille": 1
+            },
+            "d": {
+                "forme_trouvee": "INC",
+                "nature": "VER:futu",
+                "polarite": 3,
+                "position": 1,
+                "taille": 1
+            },
+            "\u00e0": {
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "polarite": 2,
+                "position": 4,
+                "taille": 1
+            },
+            "des": {
+                "forme_trouvee": "INC",
+                "nature": "PRP:det",
+                "polarite": 3,
+                "position": 11,
+                "taille": 1
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 21h39",
+        "titre": "Le tireur de Santa Fe est en \"pleine confusion\" mentale",
+        "mots_du_titre": [
+            "Le",
+            "tireur",
+            "de",
+            "Santa",
+            "Fe",
+            "est",
+            "en",
+            "pleine",
+            "confusion",
+            "mentale"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/le-tireur-de-santa-fe-est-en-pleine-confusion-mentale-5b033ccacd7028f07a1fd4eb",
+        "description": "L'auteur de la fusillade qui a fait dix morts et treize bless\u00e9s vendredi dans un lyc\u00e9e texan se trouve dans un \u00e9tat de confusion mentale, a affirm\u00e9 lundi son avocat.Dimitrios Pagourtzis, \u00e9l\u00e8ve de 17 ans scolaris\u00e9 \u00e0 la Santa Fe High School o\u00f9 il a ...",
+        "coordonnees": {
+            "Santa": {
+                "status": false
+            },
+            "Fe": {
+                "status": false
+            },
+            "Dimitrios": {
+                "status": false
+            },
+            "Pagourtzis": {
+                "status": false
+            },
+            "High": {
+                "status": false
+            },
+            "School": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "mentale": {
+                "forme_trouvee": "INFSING",
+                "polarite": 2,
+                "taille": 1,
+                "nature": "ADJ",
+                "position": 9
+            },
+            "tireur": {
+                "forme_trouvee": "INC",
+                "polarite": 1,
+                "taille": 1,
+                "nature": "NOM",
+                "position": 1
+            },
+            "Santa Fe": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "taille": 2,
+                "nature": "SUITE_DE_MOTS",
+                "position": 3
+            },
+            "est": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "taille": 1,
+                "nature": "VER:pres",
+                "position": 5
+            },
+            "en pleine confusion": {
+                "forme_trouvee": "INC",
+                "polarite": -1,
+                "taille": 3,
+                "nature": "SUITE_DE_MOTS",
+                "position": 6
+            },
+            "de": {
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "taille": 1,
+                "nature": "PRP",
+                "position": 2
+            },
+            "Le": {
+                "forme_trouvee": "MIN",
+                "polarite": 3,
+                "taille": 1,
+                "nature": "DET:ART",
+                "position": 0
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 21h35",
+        "titre": "D\u00e9c\u00e8s de Reggie Lucas, producteur de Madonna",
+        "mots_du_titre": [
+            "D\u00e9c\u00e8s",
+            "de",
+            "Reggie",
+            "Lucas",
+            "producteur",
+            "de",
+            "Madonna"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/deces-de-reggie-lucas-producteur-de-madonna-5b033bd5cd70c60ea71eb9b5",
+        "description": "Le guitariste et producteur Reggie Lucas, qui a jou\u00e9 notamment avec Miles Davis et collabor\u00e9 avec Madonna, est d\u00e9c\u00e9d\u00e9 samedi dans un h\u00f4pital new-yorkais des suites de complications dues \u00e0 une maladie cardiaque, annonce lundi le New York Times qui ...",
+        "coordonnees": {
+            "D\u00e9c\u00e8s": {
+                "status": false
+            },
+            "Reggie": {
+                "status": false
+            },
+            "Lucas": {
+                "status": true,
+                "latitude": 33.0842854,
+                "longitude": -96.5766577,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Madonna": {
+                "status": false
+            },
+            "Miles": {
+                "status": false
+            },
+            "Davis": {
+                "status": true,
+                "latitude": 40.9628845,
+                "longitude": -112.0953297,
+                "types": [
+                    "political"
+                ]
+            },
+            "New": {
+                "status": true,
+                "latitude": 40.7127753,
+                "longitude": -74.0059728,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "York": {
+                "status": true,
+                "latitude": 34.9871367,
+                "longitude": -81.2518833,
+                "types": [
+                    "administrative_area_level_2",
+                    "political"
+                ]
+            },
+            "Times": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "producteur": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "ADJ",
+                "position": 4
+            },
+            "Reggie": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "NOM",
+                "position": 2
+            },
+            "de": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "PRP",
+                "position": 5
+            },
+            "D\u00e9c\u00e8s": {
+                "taille": 1,
+                "forme_trouvee": "MIN",
+                "polarite": -3,
+                "nature": "NOM",
+                "position": 0
+            },
+            "Madonna": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "NAM",
+                "position": 6
+            },
+            "Lucas": {
+                "taille": 1,
+                "forme_trouvee": "MIN",
+                "polarite": 3,
+                "nature": "VER:simp",
+                "position": 3
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 21h03",
+        "titre": "Incidents lors du barrage Ajaccio-Le Havre: r\u00e9unions \"d'urgence\" \u00e0 la Ligue",
+        "mots_du_titre": [
+            "Incidents",
+            "lors",
+            "du",
+            "barrage",
+            "Ajaccio-Le",
+            "Havre",
+            "r\u00e9unions",
+            "d",
+            "urgence",
+            "\u00e0",
+            "la",
+            "Ligue"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/incidents-lors-du-barrage-ajaccio-le-havre-reunions-d-urgence-a-la-ligue-5b033464cd70c60ea71eaf09",
+        "description": "La pol\u00e9mique enfle apr\u00e8s les incidents dimanche lors de la victoire de l'AC Ajaccio contre Le Havre en pr\u00e9barrages de Ligue 2, entre le club corse qui d\u00e9nonce un \"lynchage m\u00e9diatique\" et les Normands qui veulent gagner cette rencontre sur tapis vert....",
+        "coordonnees": {
+            "Incidents": {
+                "status": false
+            },
+            "Ajaccio-Le": {
+                "status": true,
+                "latitude": 41.919229,
+                "longitude": 8.738635,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Havre": {
+                "status": true,
+                "latitude": 48.549999,
+                "longitude": -109.6840887,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Ligue": {
+                "status": false
+            },
+            "AC": {
+                "status": false
+            },
+            "Ajaccio": {
+                "status": true,
+                "latitude": 41.919229,
+                "longitude": 8.738635,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Normands": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "Havre": {
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "position": 5,
+                "taille": 1,
+                "polarite": 3
+            },
+            "Ligue": {
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "position": 11,
+                "taille": 1,
+                "polarite": 3
+            },
+            "Incidents": {
+                "nature": "NOM",
+                "forme_trouvee": "INFSING",
+                "position": 0,
+                "taille": 1,
+                "polarite": -3
+            },
+            "lors": {
+                "nature": "ADV",
+                "forme_trouvee": "INC",
+                "position": 1,
+                "taille": 1,
+                "polarite": 3
+            },
+            "barrage": {
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "position": 3,
+                "taille": 1,
+                "polarite": 3
+            },
+            "r\u00e9unions d urgence": {
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INFSING",
+                "position": 6,
+                "taille": 3,
+                "polarite": 1
+            },
+            "du": {
+                "nature": "PRP:det",
+                "forme_trouvee": "INC",
+                "position": 2,
+                "taille": 1,
+                "polarite": 3
+            },
+            "\u00e0 la": {
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INC",
+                "position": 9,
+                "taille": 2,
+                "polarite": -1
+            }
+        },
+        "polarite": 1
+    },
+    {
+        "date": "2018-05-21 20h51",
+        "titre": "EuroMillions Basket League - Playoffs: Ostende et le Brussels se retrouvent, Alost affronte ...",
+        "mots_du_titre": [
+            "EuroMillions",
+            "Basket",
+            "League",
+            "-",
+            "Playoffs",
+            "Ostende",
+            "et",
+            "le",
+            "Brussels",
+            "se",
+            "retrouvent",
+            "Alost",
+            "affronte",
+            "",
+            "",
+            ""
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/euromillions-basket-league-playoffs-ostende-et-le-brussels-se-retrouvent-alost-affronte-mons-dans-un-duel-indecis-5b033199cd70c60ea71e8067",
+        "description": "Le premier tour des playoffs (best-of-3) du championnat de Belgique de basket (EMBL) d\u00e9butera le samedi 26 mai avec notamment un duel entre Ostende et le Brussels, pour un remake de la finale de la saison derni\u00e8re.Le duel entre Ostende et le ...",
+        "coordonnees": {
+            "EuroMillions": {
+                "status": false
+            },
+            "Basket": {
+                "status": false
+            },
+            "League": {
+                "status": false
+            },
+            "Playoffs": {
+                "status": false
+            },
+            "Ostende": {
+                "status": true,
+                "latitude": 51.21543,
+                "longitude": 2.928656,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Brussels": {
+                "status": true,
+                "latitude": 50.8503463,
+                "longitude": 4.3517211,
+                "types": [
+                    "administrative_area_level_1",
+                    "locality",
+                    "political"
+                ]
+            },
+            "Alost": {
+                "status": true,
+                "latitude": 50.9378101,
+                "longitude": 4.0409517,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Belgique": {
+                "status": true,
+                "latitude": 50.503887,
+                "longitude": 4.469936,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "EMBL": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "Alost": {
+                "taille": 1,
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 11
+            },
+            "-": {
+                "taille": 1,
+                "nature": "PUN",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 3
+            },
+            "League": {
+                "taille": 1,
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "polarite": 1,
+                "position": 2
+            },
+            "Ostende": {
+                "taille": 1,
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 5
+            },
+            "le": {
+                "taille": 1,
+                "nature": "DET:ART",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 7
+            },
+            "et": {
+                "taille": 1,
+                "nature": "KON",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 6
+            },
+            "Basket": {
+                "taille": 1,
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "polarite": 3,
+                "position": 1
+            },
+            "se retrouvent": {
+                "taille": 2,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INF",
+                "polarite": 3,
+                "position": 9
+            },
+            "affronte": {
+                "taille": 1,
+                "nature": "VER:pres",
+                "forme_trouvee": "INF",
+                "polarite": -3,
+                "position": 12
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 20h50",
+        "titre": "Cisjordanie: une d\u00e9l\u00e9gation am\u00e9ricaine vis\u00e9e par des jets d'oeufs de manifestants",
+        "mots_du_titre": [
+            "Cisjordanie",
+            "une",
+            "d\u00e9l\u00e9gation",
+            "am\u00e9ricaine",
+            "vis\u00e9e",
+            "par",
+            "des",
+            "jets",
+            "d",
+            "oeufs",
+            "de",
+            "manifestants"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/cisjordanie-une-delegation-americaine-visee-par-des-jets-d-oeufs-de-manifestants-5b033158cd70c60ea71e8066",
+        "description": "Une d\u00e9l\u00e9gation am\u00e9ricaine a essuy\u00e9 lundi en Cisjordanie des jets d'oeufs de manifestants palestiniens qui cherchaient \u00e0 l'emp\u00eacher d'assister \u00e0 un \u00e9v\u00e9nement dans ce territoire occup\u00e9 par Isra\u00ebl.Un groupe d'une quinzaine de personnes portant des ...",
+        "coordonnees": {
+            "Cisjordanie": {
+                "status": true,
+                "latitude": 31.9465703,
+                "longitude": 35.3027226,
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            "Isra\u00ebl": {
+                "status": true,
+                "latitude": 31.046051,
+                "longitude": 34.851612,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "manifestants": {
+                "nature": "NOM",
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "position": 11,
+                "polarite": -3
+            },
+            "d": {
+                "nature": "VER:futu",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 8,
+                "polarite": 3
+            },
+            "par": {
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 5,
+                "polarite": 3
+            },
+            "vis\u00e9e": {
+                "nature": "VER:pper",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 4,
+                "polarite": 3
+            },
+            "Cisjordanie": {
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 0,
+                "polarite": 3
+            },
+            "oeufs": {
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 9,
+                "polarite": 3
+            },
+            "jets": {
+                "nature": "NOM",
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "position": 7,
+                "polarite": 3
+            },
+            "des": {
+                "nature": "PRP:det",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 6,
+                "polarite": 3
+            },
+            "une": {
+                "nature": "DET:ART",
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "position": 1,
+                "polarite": 3
+            },
+            "am\u00e9ricaine": {
+                "nature": "ADJ",
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "position": 3,
+                "polarite": 2
+            },
+            "d\u00e9l\u00e9gation": {
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 2,
+                "polarite": 3
+            },
+            "de": {
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 10,
+                "polarite": 3
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 20h36",
+        "titre": "Marseille: des policiers mis en joue par des malfaiteurs dans une cit\u00e9",
+        "mots_du_titre": [
+            "Marseille",
+            "des",
+            "policiers",
+            "mis",
+            "en",
+            "joue",
+            "par",
+            "des",
+            "malfaiteurs",
+            "dans",
+            "une",
+            "cit\u00e9"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/marseille-des-policiers-mis-en-joue-par-des-malfaiteurs-dans-une-cite-5b032de7cd70c60ea71e803a",
+        "description": "<img src=\"https:\/\/o3.ldh.be\/image\/5b032de6cd70c60ea71e8038.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Des policiers ont \u00e9t\u00e9 \"mis en joue\" par des hommes arm\u00e9s de kalachnikovs apr\u00e8s une fusillade dans une cit\u00e9 sensible de Marseille lundi en plein apr\u00e8s-midi, a-t-on appris aupr\u00e8s de la pr\u00e9fecture de police.\"Aucun bless\u00e9 par balle n'est \u00e0 d\u00e9plorer mais ...",
+        "coordonnees": {
+            "Marseille": {
+                "status": true,
+                "latitude": 43.296482,
+                "longitude": 5.36978,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Aucun": {
+                "status": true,
+                "latitude": 42.973778,
+                "longitude": -0.19252,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "malfaiteurs": {
+                "forme_trouvee": "INFSING",
+                "position": 8,
+                "taille": 1,
+                "nature": "NOM",
+                "polarite": -3
+            },
+            "par": {
+                "forme_trouvee": "INC",
+                "position": 6,
+                "taille": 1,
+                "nature": "PRP",
+                "polarite": 3
+            },
+            "policiers": {
+                "forme_trouvee": "INFSING",
+                "position": 2,
+                "taille": 1,
+                "nature": "NOM",
+                "polarite": -1
+            },
+            "une": {
+                "forme_trouvee": "INFSING",
+                "position": 10,
+                "taille": 1,
+                "nature": "DET:ART",
+                "polarite": 3
+            },
+            "des": {
+                "forme_trouvee": "INC",
+                "position": 7,
+                "taille": 1,
+                "nature": "PRP:det",
+                "polarite": 3
+            },
+            "Marseille": {
+                "forme_trouvee": "MIN",
+                "position": 0,
+                "taille": 1,
+                "nature": "NAM",
+                "polarite": 3
+            },
+            "dans": {
+                "forme_trouvee": "INC",
+                "position": 9,
+                "taille": 1,
+                "nature": "PRP",
+                "polarite": 3
+            },
+            "cit\u00e9": {
+                "forme_trouvee": "INC",
+                "position": 11,
+                "taille": 1,
+                "nature": "NOM",
+                "polarite": 3
+            },
+            "mis en joue": {
+                "forme_trouvee": "INF",
+                "position": 3,
+                "taille": 3,
+                "nature": "SUITE_DE_MOTS",
+                "polarite": 1
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 20h35",
+        "titre": "Enqu\u00eate russe: Trump accuse la CIA de l'\u00e8re Obama",
+        "mots_du_titre": [
+            "Enqu\u00eate",
+            "russe",
+            "Trump",
+            "accuse",
+            "la",
+            "CIA",
+            "de",
+            "l",
+            "\u00e8re",
+            "Obama"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/enquete-russe-trump-accuse-la-cia-de-l-ere-obama-5b032dd1cd70c60ea71e8037",
+        "description": "Le pr\u00e9sident am\u00e9ricain Donald Trump a relanc\u00e9 lundi ses attaques contre l'enqu\u00eate russe du procureur sp\u00e9cial Robert Mueller en accusant la CIA de l'\u00e8re Obama d'avoir voulu commettre un \"assassinat politique\" en infiltrant son \u00e9quipe de campagne....",
+        "coordonnees": {
+            "Enqu\u00eate": {
+                "status": false
+            },
+            "Trump": {
+                "status": false
+            },
+            "CIA": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Obama": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Donald": {
+                "status": false
+            },
+            "Robert": {
+                "status": false
+            },
+            "Mueller": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "l": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "position": 7,
+                "nature": "ADJ",
+                "polarite": 3
+            },
+            "accuse": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "position": 3,
+                "nature": "VER:pres",
+                "polarite": 3
+            },
+            "de": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "position": 6,
+                "nature": "PRP",
+                "polarite": 3
+            },
+            "Obama": {
+                "taille": 1,
+                "forme_trouvee": "MIN",
+                "position": 9,
+                "nature": "NAM",
+                "polarite": 3
+            },
+            "la": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "position": 4,
+                "nature": "DET:ART",
+                "polarite": 3
+            },
+            "\u00e8re": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "position": 8,
+                "nature": "NOM",
+                "polarite": 3
+            },
+            "CIA": {
+                "taille": 1,
+                "forme_trouvee": "MIN",
+                "position": 5,
+                "nature": "NOM",
+                "polarite": 1
+            },
+            "Trump": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "position": 2,
+                "nature": "NAM",
+                "polarite": -1
+            },
+            "Enqu\u00eate": {
+                "taille": 1,
+                "forme_trouvee": "MIN",
+                "position": 0,
+                "nature": "NOM",
+                "polarite": 3
+            },
+            "russe": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "position": 1,
+                "nature": "ADJ",
+                "polarite": 3
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 20h35",
+        "titre": "Nouvelles sanctions am\u00e9ricaines apr\u00e8s la r\u00e9\u00e9lection de Maduro",
+        "mots_du_titre": [
+            "Nouvelles",
+            "sanctions",
+            "am\u00e9ricaines",
+            "apr\u00e8s",
+            "la",
+            "r\u00e9\u00e9lection",
+            "de",
+            "Maduro"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/nouvelles-sanctions-americaines-apres-la-reelection-de-maduro-5b032dc3cd7028f07a1f9376",
+        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5b032dbfcd7028f07a1f936c.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Les Etats-Unis ont inflig\u00e9 lundi de nouvelles sanctions financi\u00e8res au Venezuela, au lendemain de la r\u00e9\u00e9lection contest\u00e9e du pr\u00e9sident socialiste Nicolas Maduro jusqu'en 2025 qui renforce l'isolement international de ce pays en crise. Le pr\u00e9sident ...",
+        "coordonnees": {
+            "Nouvelles": {
+                "status": true,
+                "latitude": 50.4104361,
+                "longitude": 3.9671418,
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_1"
+                ]
+            },
+            "Maduro": {
+                "status": false
+            },
+            "Etats-Unis": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Venezuela": {
+                "status": true,
+                "latitude": 6.42375,
+                "longitude": -66.58973,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Nicolas": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "apr\u00e8s": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "PRP",
+                "position": 3
+            },
+            "am\u00e9ricaines": {
+                "taille": 1,
+                "forme_trouvee": "INFSING",
+                "polarite": 2,
+                "nature": "ADJ",
+                "position": 2
+            },
+            "Nouvelles": {
+                "taille": 1,
+                "forme_trouvee": "INFSING",
+                "polarite": 3,
+                "nature": "ADJ",
+                "position": 0
+            },
+            "Maduro": {
+                "taille": 1,
+                "forme_trouvee": "MIN",
+                "polarite": 3,
+                "nature": "NAM",
+                "position": 7
+            },
+            "r\u00e9\u00e9lection": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "NOM",
+                "position": 5
+            },
+            "la": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "DET:ART",
+                "position": 4
+            },
+            "sanctions": {
+                "taille": 1,
+                "forme_trouvee": "INFSING",
+                "polarite": -2,
+                "nature": "NOM",
+                "position": 1
+            },
+            "de": {
+                "taille": 1,
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "nature": "PRP",
+                "position": 6
+            }
+        },
+        "polarite": 1
+    },
+    {
+        "date": "2018-05-21 20h34",
+        "titre": "Washington veut imposer \u00e0 l'Iran les sanctions \"les plus fortes de l'Histoire\"",
+        "mots_du_titre": [
+            "Washington",
+            "veut",
+            "imposer",
+            "\u00e0",
+            "l",
+            "Iran",
+            "les",
+            "sanctions",
+            "les",
+            "plus",
+            "fortes",
+            "de",
+            "l",
+            "Histoire",
+            ""
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/washington-veut-imposer-a-l-iran-les-sanctions-les-plus-fortes-de-l-histoire-5b032d9ccd70c60ea71e802a",
+        "description": "<img src=\"https:\/\/o1.ldh.be\/image\/5b032d9acd70c60ea71e8026.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Les Etats-Unis ont promis lundi d'imposer \u00e0 l'Iran les sanctions \"les plus fortes de l'Histoire\" pour qu'il se plie \u00e0 une liste de douze exigences draconiennes en vue d'un \"nouvel accord\" beaucoup plus vaste, apr\u00e8s le retrait am\u00e9ricain controvers\u00e9 ...",
+        "coordonnees": {
+            "Washington": {
+                "status": true,
+                "latitude": 38.9071923,
+                "longitude": -77.0368707,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Iran": {
+                "status": true,
+                "latitude": 32.427908,
+                "longitude": 53.688046,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Histoire": {
+                "status": false
             },
             "Etats-Unis": {
                 "status": true,
@@ -261,140 +2259,323 @@
                 ]
             }
         },
-        "positivite": 2
+        "lemmes": {
+            "veut": {
+                "polarite": 3,
+                "nature": "VER:pres",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 1
+            },
+            "imposer": {
+                "polarite": -3,
+                "nature": "VER:infi",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 2
+            },
+            "sanctions": {
+                "polarite": -2,
+                "nature": "NOM",
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "position": 7
+            },
+            "\u00e0": {
+                "polarite": 2,
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 3
+            },
+            "les": {
+                "polarite": 3,
+                "nature": "DET:ART",
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "position": 6
+            },
+            "de": {
+                "polarite": 3,
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 11
+            },
+            "Washington": {
+                "polarite": 3,
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "taille": 1,
+                "position": 0
+            },
+            "Iran": {
+                "polarite": 3,
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "taille": 1,
+                "position": 5
+            },
+            "les plus": {
+                "polarite": 3,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INFSING",
+                "taille": 2,
+                "position": 8
+            },
+            "fortes": {
+                "polarite": 3,
+                "nature": "ADJ",
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "position": 10
+            },
+            "l": {
+                "polarite": 3,
+                "nature": "ADJ",
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "position": 12
+            },
+            "Histoire": {
+                "polarite": 3,
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "taille": 1,
+                "position": 13
+            }
+        },
+        "polarite": 2
     },
     {
-        "date": "2018-05-13 13h04",
-        "titre": "Le Dragons d\u00e9croche son 11e titre de champion de Belgique, le 4e cons\u00e9cutif",
+        "date": "2018-05-21 20h09",
+        "titre": "\"Peu de signes de progr\u00e8s\" en Afghanistan",
         "mots_du_titre": [
-            "Le",
-            "Dragons",
-            "d\u00e9croche",
-            "son",
-            "11e",
-            "titre",
+            "Peu",
             "de",
-            "champion",
+            "signes",
             "de",
-            "Belgique",
-            "le",
-            "4e",
-            "cons\u00e9cutif"
+            "progr\u00e8s",
+            "en",
+            "Afghanistan"
         ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/le-dragons-decroche-son-11e-titre-de-champion-de-belgique-le-4e-consecutif-5af8381fcd70c60ea6f6e534",
-        "description": "Le Dragons a conserv\u00e9 son titre de champion de Belgique de hockey messieurs, au terme de la 2e manche de la finale des playoffs, dimanche dans les installations du Braxgata, \u00e0 Boom. Vainqueurs 5-1 face au Waterloo Ducks, jeudi lors du match aller, ...",
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/peu-de-signes-de-progres-en-afghanistan-5b0327adcd70c60ea71e61f7",
+        "description": "Les d\u00e9clarations optimistes sur l'am\u00e9lioration de la s\u00e9curit\u00e9 en Afghanistan ne correspondent pas \u00e0 la r\u00e9alit\u00e9 sur le terrain, selon un rapport officiel du Pentagone publi\u00e9 lundi, qui voit \"peu de signes de progr\u00e8s\" dans ce pays apr\u00e8s 17 ans de ...",
         "coordonnees": {
-            "Dragons": {
+            "Peu": {
                 "status": false
             },
-            "Belgique": {
+            "Afghanistan": {
                 "status": true,
-                "latitude": 50.503887,
-                "longitude": 4.469936,
+                "latitude": 33.93911,
+                "longitude": 67.709953,
                 "types": [
                     "country",
                     "political"
                 ]
             },
-            "Braxgata": {
-                "status": false
-            },
-            "Boom": {
-                "status": false
-            },
-            "Vainqueurs": {
-                "status": false
-            },
-            "Waterloo": {
-                "status": true,
-                "latitude": 50.71469,
-                "longitude": 4.3991,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "Ducks": {
+            "Pentagone": {
                 "status": false
             }
         },
-        "positivite": 2
+        "lemmes": {
+            "en": {
+                "position": 5,
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "taille": 1,
+                "polarite": 3
+            },
+            "Peu de": {
+                "position": 0,
+                "forme_trouvee": "MIN",
+                "nature": "SUITE_DE_MOTS",
+                "taille": 2,
+                "polarite": 1
+            },
+            "Afghanistan": {
+                "position": 6,
+                "forme_trouvee": "INC",
+                "nature": "NAM",
+                "taille": 1,
+                "polarite": 3
+            },
+            "signes de progr\u00e8s": {
+                "position": 2,
+                "forme_trouvee": "INFSING",
+                "nature": "SUITE_DE_MOTS",
+                "taille": 3,
+                "polarite": 3
+            }
+        },
+        "polarite": 3
     },
     {
-        "date": "2018-05-13 13h02",
-        "titre": "Irak\/\u00e9lections: l'abstention massive semble avoir profit\u00e9 aux listes anti-syst\u00e8me",
+        "date": "2018-05-21 20h04",
+        "titre": "Cisjordanie: une d\u00e9l\u00e9gation am\u00e9ricaine vis\u00e9e par des jets d'oeufs de manifestants palestiniens",
         "mots_du_titre": [
-            "Irak\/\u00e9lections",
+            "Cisjordanie",
+            "une",
+            "d\u00e9l\u00e9gation",
+            "am\u00e9ricaine",
+            "vis\u00e9e",
+            "par",
+            "des",
+            "jets",
+            "d",
+            "oeufs",
+            "de",
+            "manifestants",
+            "palestiniens"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/cisjordanie-une-delegation-americaine-visee-par-des-jets-d-oeufs-de-manifestants-palestiniens-5b03268fcd70c60ea71e61f3",
+        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5b03268ccd70c60ea71e61ef.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Une d\u00e9l\u00e9gation am\u00e9ricaine a essuy\u00e9 lundi en Cisjordanie des jets d'oeufs de manifestants palestiniens qui cherchaient \u00e0 l'emp\u00eacher d'assister \u00e0 un \u00e9v\u00e9nement dans ce territoire occup\u00e9 par Isra\u00ebl.Un groupe d'une quinzaine de personnes portant des ...",
+        "coordonnees": {
+            "Cisjordanie": {
+                "status": true,
+                "latitude": 31.9465703,
+                "longitude": 35.3027226,
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            "Isra\u00ebl": {
+                "status": true,
+                "latitude": 31.046051,
+                "longitude": 34.851612,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "vis\u00e9e": {
+                "position": 4,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "VER:pper"
+            },
+            "par": {
+                "position": 5,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "PRP"
+            },
+            "jets": {
+                "position": 7,
+                "polarite": 3,
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "nature": "NOM"
+            },
+            "oeufs": {
+                "position": 9,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "NOM"
+            },
+            "de": {
+                "position": 10,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "PRP"
+            },
+            "am\u00e9ricaine": {
+                "position": 3,
+                "polarite": 2,
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "nature": "ADJ"
+            },
+            "des": {
+                "position": 6,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "PRP:det"
+            },
+            "une": {
+                "position": 1,
+                "polarite": 3,
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "nature": "DET:ART"
+            },
+            "Cisjordanie": {
+                "position": 0,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "NAM"
+            },
+            "d": {
+                "position": 8,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "VER:futu"
+            },
+            "manifestants": {
+                "position": 11,
+                "polarite": -3,
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "nature": "NOM"
+            },
+            "d\u00e9l\u00e9gation": {
+                "position": 2,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "taille": 1,
+                "nature": "NOM"
+            },
+            "palestiniens": {
+                "position": 12,
+                "polarite": -1,
+                "forme_trouvee": "INFSING",
+                "taille": 1,
+                "nature": "ADJ"
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 19h54",
+        "titre": "Ex-expion empoisonn\u00e9 - La m\u00e8re de l'ex-espion empoisonn\u00e9 Skripal demande \u00e0 parler \u00e0 son fils",
+        "mots_du_titre": [
+            "Ex-expion",
+            "empoisonn\u00e9",
+            "-",
+            "La",
+            "m\u00e8re",
+            "de",
             "l",
-            "abstention",
-            "massive",
-            "semble",
-            "avoir",
-            "profit\u00e9",
-            "aux",
-            "listes",
-            "anti-syst\u00e8me"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/irakelections-l-abstention-massive-semble-avoir-profite-aux-listes-anti-systeme-5af837b8cd7028f079f3fb54",
-        "description": "Les Irakiens ont inflig\u00e9 samedi un camouflet \u00e0 leur classe politique en boudant les urnes et en donnant, selon les premi\u00e8res indications, un coup de pouce aux listes anti-syst\u00e8me, lors des premi\u00e8res l\u00e9gislatives apr\u00e8s la victoire sur les jihadistes....",
-        "coordonnees": {
-            "Irak\/\u00e9lections": {
-                "status": false
-            },
-            "Irakiens": {
-                "status": true,
-                "latitude": 33.223191,
-                "longitude": 43.679291,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            }
-        },
-        "positivite": 0
-    },
-    {
-        "date": "2018-05-13 12h48",
-        "titre": "Le stade de Belgique\/Angleterre \u00e0 Kaliningrad a \u00e9t\u00e9 inaugur\u00e9",
-        "mots_du_titre": [
-            "Le",
-            "stade",
-            "de",
-            "Belgique\/Angleterre",
+            "ex-espion",
+            "empoisonn\u00e9",
+            "Skripal",
+            "demande",
             "\u00e0",
-            "Kaliningrad",
-            "a",
-            "\u00e9t\u00e9",
-            "inaugur\u00e9"
+            "parler",
+            "\u00e0",
+            "son",
+            "fils"
         ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/le-stade-de-belgiqueangleterre-a-kaliningrad-a-ete-inaugure-5af8344bcd7028f079f3f401",
-        "description": "Le Kaliningrad Stadium, stade dans lequel la Belgique disputera son troisi\u00e8me match de la phase de groupes du Mondial 2018, contre l'Angleterre le 28 juin, a \u00e9t\u00e9 inaugur\u00e9 samedi \u00e0 Kaliningrad par une rencontre de deuxi\u00e8me division russe entre ...",
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/ex-expion-empoisonne-la-mere-de-l-ex-espion-empoisonne-skripal-demande-a-parler-a-son-fils-5b032424cd70c60ea71e61e4",
+        "description": "La m\u00e8re de l'ex-espion russe Sergue\u00ef Skripal, empoisonn\u00e9 en mars en Angleterre et sorti de l'h\u00f4pital le 18 mai, a fait une apparition lundi \u00e0 la t\u00e9l\u00e9vision russe pour demander aux autorit\u00e9s britanniques de pouvoir parler \u00e0 son fils.La femme, ...",
         "coordonnees": {
-            "Belgique\/Angleterre": {
+            "Ex-expion": {
                 "status": false
             },
-            "Kaliningrad": {
-                "status": true,
-                "latitude": 54.7104264,
-                "longitude": 20.4522144,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "Stadium": {
+            "Skripal": {
                 "status": false
             },
-            "Belgique": {
-                "status": true,
-                "latitude": 50.503887,
-                "longitude": 4.469936,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "Mondial": {
+            "Sergue\u00ef": {
                 "status": false
             },
             "Angleterre": {
@@ -407,123 +2588,451 @@
                 ]
             }
         },
-        "positivite": 3
-    },
-    {
-        "date": "2018-05-13 12h48",
-        "titre": "Attaque au couteau: l'assaillant n\u00e9 en Tch\u00e9tch\u00e9nie et fich\u00e9 S, ses parents en garde \u00e0 vue",
-        "mots_du_titre": [
-            "Attaque",
-            "au",
-            "couteau",
-            "l",
-            "assaillant",
-            "n\u00e9",
-            "en",
-            "Tch\u00e9tch\u00e9nie",
-            "et",
-            "fich\u00e9",
-            "S",
-            "ses",
-            "parents",
-            "en",
-            "garde",
-            "\u00e0",
-            "vue"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/attaque-au-couteau-l-assaillant-ne-en-tchetchenie-et-fiche-s-ses-parents-en-garde-a-vue-5af83449cd7028f079f3f400",
-        "description": "L'auteur de l'attaque au couteau revendiqu\u00e9e par le groupe Etat islamique, qui a tu\u00e9 un passant samedi soir \u00e0 Paris, est un Fran\u00e7ais de 20 ans n\u00e9 en Tch\u00e9tch\u00e9nie, qui \u00e9tait fich\u00e9 S, et dont les parents ont \u00e9t\u00e9 plac\u00e9s dimanche en garde \u00e0 vue.Le jeune ...",
-        "coordonnees": {
-            "Attaque": {
-                "status": false
+        "lemmes": {
+            "son": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 7,
+                "nature": "DET:POS",
+                "forme_trouvee": "INC"
             },
-            "Tch\u00e9tch\u00e9nie": {
-                "status": true,
-                "latitude": 43.4023301,
-                "longitude": 45.7187468,
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
+            "la": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 9,
+                "nature": "DET:ART",
+                "forme_trouvee": "INC"
             },
-            "S": {
-                "status": false
+            "de": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 11,
+                "nature": "PRP",
+                "forme_trouvee": "INC"
             },
-            "Etat": {
-                "status": false
+            "Conseil de s\u00e9curit\u00e9": {
+                "taille": 3,
+                "polarite": 3,
+                "position": 2,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INC"
             },
-            "Paris": {
-                "status": true,
-                "latitude": 48.856614,
-                "longitude": 2.3522219,
-                "types": [
-                    "locality",
-                    "political"
-                ]
+            "\u00e0": {
+                "taille": 1,
+                "polarite": 2,
+                "position": 6,
+                "nature": "PRP",
+                "forme_trouvee": "INC"
             },
-            "Fran\u00e7ais": {
-                "status": false
+            "le": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 1,
+                "nature": "DET:ART",
+                "forme_trouvee": "INC"
+            },
+            "RDC": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 0,
+                "nature": "NAM",
+                "forme_trouvee": "INC"
+            },
+            "manifester": {
+                "taille": 1,
+                "polarite": -1,
+                "position": 12,
+                "nature": "VER:infi",
+                "forme_trouvee": "INC"
+            },
+            "libert\u00e9": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 10,
+                "nature": "NOM",
+                "forme_trouvee": "INC"
+            },
+            "tour": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 8,
+                "nature": "NOM",
+                "forme_trouvee": "INC"
+            },
+            "demande": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 5,
+                "nature": "VER:pres",
+                "forme_trouvee": "INC"
             }
         },
-        "positivite": 1
+        "polarite": 3
     },
     {
-        "date": "2018-05-13 12h33",
-        "titre": "Indon\u00e9sie: 11 morts dans des attaques suicide commises par une m\u00eame famille",
+        "date": "2018-05-21 19h52",
+        "titre": "RDC: le Conseil de s\u00e9curit\u00e9 demande \u00e0 son tour la libert\u00e9 de manifester",
         "mots_du_titre": [
-            "Indon\u00e9sie",
-            "11",
-            "morts",
-            "dans",
-            "des",
-            "attaques",
-            "suicide",
-            "commises",
-            "par",
-            "une",
-            "m\u00eame",
-            "famille"
+            "RDC",
+            "le",
+            "Conseil",
+            "de",
+            "s\u00e9curit\u00e9",
+            "demande",
+            "\u00e0",
+            "son",
+            "tour",
+            "la",
+            "libert\u00e9",
+            "de",
+            "manifester"
         ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/indonesie-11-morts-dans-des-attaques-suicide-commises-par-une-meme-famille-5af830c2cd70c60ea6f6c905",
-        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5af830c2cd70c60ea6f6c903.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Au moins 11 personnes ont \u00e9t\u00e9 tu\u00e9es et 41 bless\u00e9es dimanche dans des attentats suicide contre des \u00e9glises en Indon\u00e9sie, revendiqu\u00e9es par le groupe Etat islamique et impliquant six membres d'une m\u00eame famille dont deux enfants.L'archipel d'Asie du ...",
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/rdc-le-conseil-de-securite-demande-a-son-tour-la-liberte-de-manifester-5b0323a7cd70c60ea71e5442",
+        "description": "Le Conseil de s\u00e9curit\u00e9 a demand\u00e9 lundi \u00e0 la R\u00e9publique d\u00e9mocratique du Congo de lever l'interdiction de manifester dans la perspective de la tenue des \u00e9lections pr\u00e9vues en d\u00e9cembre, qui devront \u00eatre \"cr\u00e9dibles\" et \"inclusives\".Lors d'une r\u00e9union ...",
         "coordonnees": {
-            "Indon\u00e9sie": {
+            "RDC": {
+                "status": false
+            },
+            "Conseil": {
+                "status": false
+            },
+            "R\u00e9publique": {
+                "status": false
+            },
+            "Congo": {
                 "status": true,
-                "latitude": -0.789275,
-                "longitude": 113.921327,
+                "latitude": -4.038333,
+                "longitude": 21.758664,
                 "types": [
                     "country",
                     "political"
                 ]
             },
-            "Etat": {
-                "status": false
-            },
-            "Asie": {
+            "Lors": {
                 "status": false
             }
         },
-        "positivite": -1
+        "lemmes": {
+            "son": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 7,
+                "nature": "DET:POS",
+                "forme_trouvee": "INC"
+            },
+            "la": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 9,
+                "nature": "DET:ART",
+                "forme_trouvee": "INC"
+            },
+            "de": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 11,
+                "nature": "PRP",
+                "forme_trouvee": "INC"
+            },
+            "Conseil de s\u00e9curit\u00e9": {
+                "taille": 3,
+                "polarite": 3,
+                "position": 2,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INC"
+            },
+            "\u00e0": {
+                "taille": 1,
+                "polarite": 2,
+                "position": 6,
+                "nature": "PRP",
+                "forme_trouvee": "INC"
+            },
+            "le": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 1,
+                "nature": "DET:ART",
+                "forme_trouvee": "INC"
+            },
+            "RDC": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 0,
+                "nature": "NAM",
+                "forme_trouvee": "INC"
+            },
+            "manifester": {
+                "taille": 1,
+                "polarite": -1,
+                "position": 12,
+                "nature": "VER:infi",
+                "forme_trouvee": "INC"
+            },
+            "libert\u00e9": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 10,
+                "nature": "NOM",
+                "forme_trouvee": "INC"
+            },
+            "tour": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 8,
+                "nature": "NOM",
+                "forme_trouvee": "INC"
+            },
+            "demande": {
+                "taille": 1,
+                "polarite": 3,
+                "position": 5,
+                "nature": "VER:pres",
+                "forme_trouvee": "INC"
+            }
+        },
+        "polarite": 3
     },
     {
-        "date": "2018-05-13 12h01",
-        "titre": "Afghanistan: un b\u00e2timent officiel attaqu\u00e9 \u00e0 Jalalabad, au moins 9 morts",
+        "date": "2018-05-21 19h48",
+        "titre": "Les premiers violons sans doute con\u00e7us pour imiter la voix humaine",
         "mots_du_titre": [
-            "Afghanistan",
-            "un",
-            "b\u00e2timent",
-            "officiel",
-            "attaqu\u00e9",
-            "\u00e0",
-            "Jalalabad",
-            "au",
-            "moins",
-            "9",
-            "morts"
+            "Les",
+            "premiers",
+            "violons",
+            "sans",
+            "doute",
+            "con\u00e7us",
+            "pour",
+            "imiter",
+            "la",
+            "voix",
+            "humaine"
         ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/afghanistan-un-batiment-officiel-attaque-a-jalalabad-au-moins-9-morts-5af82936cd70c60ea6f69376",
-        "description": "<img src=\"https:\/\/o2.ldh.be\/image\/5af82936cd70c60ea6f69374.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Au moins neuf personnes ont \u00e9t\u00e9 tu\u00e9es dimanche dans l'attaque, toujours en cours, par des hommes arm\u00e9s d'un b\u00e2timent officiel de Jalalabad, dans l'est de l'Afghanistan.Deux explosions ont retenti pr\u00e8s de l'administration des finances de la ville et ...",
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/les-premiers-violons-sans-doute-concus-pour-imiter-la-voix-humaine-5b0322d0cd7028f07a1f6cd9",
+        "description": "Les musicologues ont longtemps soup\u00e7onn\u00e9 les inventeurs du violon d'avoir voulu imiter la voix humaine. Une nouvelle \u00e9tude en fait la d\u00e9monstration avec des mod\u00e8les con\u00e7us par des luthiers italiens du 16e au 18e si\u00e8cle, dont plusieurs de la c\u00e9l\u00e8bre ...",
+        "coordonnees": [],
+        "lemmes": {
+            "imiter": {
+                "forme_trouvee": "INC",
+                "nature": "VER:infi",
+                "position": 7,
+                "taille": 1,
+                "polarite": 2
+            },
+            "Les": {
+                "forme_trouvee": "INFSING",
+                "nature": "DET:ART",
+                "position": 0,
+                "taille": 1,
+                "polarite": 3
+            },
+            "sans doute": {
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "position": 3,
+                "taille": 2,
+                "polarite": 3
+            },
+            "con\u00e7us": {
+                "forme_trouvee": "INF",
+                "nature": "VER:pper",
+                "position": 5,
+                "taille": 1,
+                "polarite": 3
+            },
+            "premiers violons": {
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "position": 1,
+                "taille": 2,
+                "polarite": 3
+            },
+            "la": {
+                "forme_trouvee": "INC",
+                "nature": "DET:ART",
+                "position": 8,
+                "taille": 1,
+                "polarite": 3
+            },
+            "pour": {
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "position": 6,
+                "taille": 1,
+                "polarite": 3
+            },
+            "voix humaine": {
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "position": 9,
+                "taille": 2,
+                "polarite": 3
+            }
+        },
+        "polarite": 3
+    },
+    {
+        "date": "2018-05-21 19h32",
+        "titre": "EuroMillions Basket League - Ostende poursuit sa domination, saison d\u00e9cevante pour le Brussels",
+        "mots_du_titre": [
+            "EuroMillions",
+            "Basket",
+            "League",
+            "-",
+            "Ostende",
+            "poursuit",
+            "sa",
+            "domination",
+            "saison",
+            "d\u00e9cevante",
+            "pour",
+            "le",
+            "Brussels"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/euromillions-basket-league-ostende-poursuit-sa-domination-saison-decevante-pour-le-brussels-5b031efccd70c60ea71e2bed",
+        "description": "Apr\u00e8s la phase r\u00e9guli\u00e8re du championnat, Ostende d\u00e9butera les playoffs de l'EuroMillions Basket League, avec l'avantage du terrain jusqu'en finale gr\u00e2ce \u00e0 une premi\u00e8re place conquise apr\u00e8s une saison domin\u00e9e de bout en bout. Derri\u00e8re les C\u00f4tiers, ...",
         "coordonnees": {
+            "EuroMillions": {
+                "status": false
+            },
+            "Basket": {
+                "status": false
+            },
+            "League": {
+                "status": false
+            },
+            "Ostende": {
+                "status": true,
+                "latitude": 51.21543,
+                "longitude": 2.928656,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Brussels": {
+                "status": true,
+                "latitude": 50.8503463,
+                "longitude": 4.3517211,
+                "types": [
+                    "administrative_area_level_1",
+                    "locality",
+                    "political"
+                ]
+            },
+            "Apr\u00e8s": {
+                "status": false
+            },
+            "Derri\u00e8re": {
+                "status": false
+            },
+            "C\u00f4tiers": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "d\u00e9cevante": {
+                "forme_trouvee": "INFSING",
+                "nature": "ADJ",
+                "taille": 1,
+                "position": 9,
+                "polarite": -3
+            },
+            "poursuit": {
+                "forme_trouvee": "INC",
+                "nature": "VER:pres",
+                "taille": 1,
+                "position": 5,
+                "polarite": 3
+            },
+            "Ostende": {
+                "forme_trouvee": "INC",
+                "nature": "NAM",
+                "taille": 1,
+                "position": 4,
+                "polarite": 3
+            },
+            "League": {
+                "forme_trouvee": "MIN",
+                "nature": "NAM",
+                "taille": 1,
+                "position": 2,
+                "polarite": 1
+            },
+            "saison": {
+                "forme_trouvee": "INC",
+                "nature": "NOM",
+                "taille": 1,
+                "position": 8,
+                "polarite": 3
+            },
+            "domination": {
+                "forme_trouvee": "INC",
+                "nature": "NOM",
+                "taille": 1,
+                "position": 7,
+                "polarite": -2
+            },
+            "Basket": {
+                "forme_trouvee": "MIN",
+                "nature": "NAM",
+                "taille": 1,
+                "position": 1,
+                "polarite": 3
+            },
+            "sa": {
+                "forme_trouvee": "INC",
+                "nature": "DET:POS",
+                "taille": 1,
+                "position": 6,
+                "polarite": 3
+            },
+            "pour": {
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "taille": 1,
+                "position": 10,
+                "polarite": 3
+            },
+            "le": {
+                "forme_trouvee": "INC",
+                "nature": "DET:ART",
+                "taille": 1,
+                "position": 11,
+                "polarite": 3
+            },
+            "-": {
+                "forme_trouvee": "INC",
+                "nature": "PUN",
+                "taille": 1,
+                "position": 3,
+                "polarite": 3
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 19h28",
+        "titre": "\"Peu de signes de progr\u00e8s\" en Afghanistan (rapport am\u00e9ricain)",
+        "mots_du_titre": [
+            "Peu",
+            "de",
+            "signes",
+            "de",
+            "progr\u00e8s",
+            "en",
+            "Afghanistan",
+            "rapport",
+            "am\u00e9ricain",
+            ""
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/peu-de-signes-de-progres-en-afghanistan-rapport-americain-5b031e28cd7028f07a1f6cb9",
+        "description": "<img src=\"https:\/\/o2.ldh.be\/image\/5b031e28cd7028f07a1f6cb7.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Les d\u00e9clarations optimistes sur l'am\u00e9lioration de la s\u00e9curit\u00e9 en Afghanistan ne correspondent pas \u00e0 la r\u00e9alit\u00e9 sur le terrain, selon un rapport officiel du Pentagone publi\u00e9 lundi, qui voit \"peu de signes de progr\u00e8s\" dans ce pays apr\u00e8s 17 ans de ...",
+        "coordonnees": {
+            "Peu": {
+                "status": false
+            },
             "Afghanistan": {
                 "status": true,
                 "latitude": 33.93911,
@@ -533,510 +3042,636 @@
                     "political"
                 ]
             },
-            "Jalalabad": {
-                "status": true,
-                "latitude": 34.4198488,
-                "longitude": 70.47294339999999,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "Deux": {
+            "Pentagone": {
                 "status": false
             }
         },
-        "positivite": 0
+        "lemmes": {
+            "en": {
+                "taille": 1,
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 5
+            },
+            "signes de progr\u00e8s": {
+                "taille": 3,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INFSING",
+                "polarite": 3,
+                "position": 2
+            },
+            "rapport": {
+                "taille": 1,
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 7
+            },
+            "Peu de": {
+                "taille": 2,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "MIN",
+                "polarite": 1,
+                "position": 0
+            },
+            "am\u00e9ricain": {
+                "taille": 1,
+                "nature": "ADJ",
+                "forme_trouvee": "INC",
+                "polarite": 2,
+                "position": 8
+            },
+            "Afghanistan": {
+                "taille": 1,
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "polarite": 3,
+                "position": 6
+            }
+        },
+        "polarite": 3
     },
     {
-        "date": "2018-05-13 11h50",
-        "titre": "En R\u00e9publique d\u00e9mocratique du Congo, l'odyss\u00e9e des entrepreneurs du net",
+        "date": "2018-05-21 19h24",
+        "titre": "Des hommes arm\u00e9s et cagoul\u00e9s tirent vers des jeunes \u00e0 Marseille: un bless\u00e9",
         "mots_du_titre": [
-            "En",
-            "R\u00e9publique",
-            "d\u00e9mocratique",
-            "du",
-            "Congo",
-            "l",
-            "odyss\u00e9e",
+            "Des",
+            "hommes",
+            "arm\u00e9s",
+            "et",
+            "cagoul\u00e9s",
+            "tirent",
+            "vers",
             "des",
-            "entrepreneurs",
-            "du",
-            "net"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/en-republique-democratique-du-congo-l-odyssee-des-entrepreneurs-du-net-5af826c8cd7028f079f3d0a3",
-        "description": "Alors que les start-up fleurissent dans le petit Rwanda voisin, l'entrepreneuriat num\u00e9rique reste un d\u00e9fi \u00e0 la taille de l'immense R\u00e9publique d\u00e9mocratique du Congo (RDC) qui attire un nombre croissant de vocations avec l'argent de la diaspora.Des ...",
-        "coordonnees": {
-            "R\u00e9publique": {
-                "status": false
-            },
-            "Congo": {
-                "status": true,
-                "latitude": -4.038333,
-                "longitude": 21.758664,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "Alors": {
-                "status": false
-            },
-            "Rwanda": {
-                "status": true,
-                "latitude": -1.940278,
-                "longitude": 29.873888,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "RDC": {
-                "status": false
-            }
-        },
-        "positivite": 3
-    },
-    {
-        "date": "2018-05-13 11h49",
-        "titre": "En Su\u00e8de, la puce \u00e0 la main",
-        "mots_du_titre": [
-            "En",
-            "Su\u00e8de",
-            "la",
-            "puce",
+            "jeunes",
             "\u00e0",
-            "la",
-            "main"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/en-suede-la-puce-a-la-main-5af82682cd70c60ea6f69373",
-        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5af8267ecd70c60ea6f6936d.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Un implant \u00e9lectronique ins\u00e9r\u00e9 sous la peau pour remplacer cl\u00e9s, cartes de visite et billets de train: en Su\u00e8de, c'est une r\u00e9alit\u00e9 pour quelques milliers de t\u00e9m\u00e9raires, avides de nouveaut\u00e9s et indiff\u00e9rents aux potentiels dangers d'une intrusion ...",
-        "coordonnees": {
-            "Su\u00e8de": {
-                "status": true,
-                "latitude": 60.12816100000001,
-                "longitude": 18.643501,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            }
-        },
-        "positivite": 3
-    },
-    {
-        "date": "2018-05-13 11h48",
-        "titre": "Chine: des diplomates refoul\u00e9s du domicile de la veuve du dissident Liu Xiaobo",
-        "mots_du_titre": [
-            "Chine",
-            "des",
-            "diplomates",
-            "refoul\u00e9s",
-            "du",
-            "domicile",
-            "de",
-            "la",
-            "veuve",
-            "du",
-            "dissident",
-            "Liu",
-            "Xiaobo"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/chine-des-diplomates-refoules-du-domicile-de-la-veuve-du-dissident-liu-xiaobo-5af82653cd70c60ea6f6936c",
-        "description": "Cinq diplomates occidentaux, dont un Allemand et un Fran\u00e7ais, ont \u00e9t\u00e9 refoul\u00e9s du domicile de la veuve du dissident chinois Liu Xiaobo, prix Nobel de la paix d\u00e9c\u00e9d\u00e9 l'an dernier en d\u00e9tention, a-t-on appris dimanche de sources diplomatiques.Les ...",
-        "coordonnees": {
-            "Chine": {
-                "status": true,
-                "latitude": 35.86166,
-                "longitude": 104.195397,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "Liu": {
-                "status": false
-            },
-            "Xiaobo": {
-                "status": false
-            },
-            "Cinq": {
-                "status": false
-            },
-            "Allemand": {
-                "status": true,
-                "latitude": 29.660212,
-                "longitude": -90.76564719999999,
-                "types": [
-                    "neighborhood",
-                    "political"
-                ]
-            },
-            "Fran\u00e7ais": {
-                "status": false
-            },
-            "Nobel": {
-                "status": false
-            }
-        },
-        "positivite": 0
-    },
-    {
-        "date": "2018-05-13 11h42",
-        "titre": "En R\u00e9publique d\u00e9mocratique du Congo, l'odyss\u00e9e des entrepreneurs du net",
-        "mots_du_titre": [
-            "En",
-            "R\u00e9publique",
-            "d\u00e9mocratique",
-            "du",
-            "Congo",
-            "l",
-            "odyss\u00e9e",
-            "des",
-            "entrepreneurs",
-            "du",
-            "net"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/en-republique-democratique-du-congo-l-odyssee-des-entrepreneurs-du-net-5af824f3cd7028f079f3d031",
-        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5af824efcd7028f079f3d02c.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Alors que les start-up fleurissent dans le petit Rwanda voisin, l'entrepreneuriat num\u00e9rique reste un d\u00e9fi \u00e0 la taille de l'immense R\u00e9publique d\u00e9mocratique du Congo (RDC) qui attire un nombre croissant de vocations avec l'argent de la diaspora.Des ...",
-        "coordonnees": {
-            "R\u00e9publique": {
-                "status": false
-            },
-            "Congo": {
-                "status": true,
-                "latitude": -4.038333,
-                "longitude": 21.758664,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "Rwanda": {
-                "status": true,
-                "latitude": -1.940278,
-                "longitude": 29.873888,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "RDC": {
-                "status": false
-            }
-        },
-        "positivite": 3
-    },
-    {
-        "date": "2018-05-13 11h40",
-        "titre": "\"Il a dit +Allah Akbar+ tout doucement, c'\u00e9tait gla\u00e7ant\": quart d'heure de terreur ...",
-        "mots_du_titre": [
-            "Il",
-            "a",
-            "dit",
-            "+Allah",
-            "Akbar+",
-            "tout",
-            "doucement",
-            "c",
-            "\u00e9tait",
-            "gla\u00e7ant",
-            "quart",
-            "d",
-            "heure",
-            "de",
-            "terreur",
-            "",
-            "",
-            "",
-            ""
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/il-a-dit-allah-akbar-tout-doucement-c-etait-glacant-quart-d-heure-de-terreur-au-coeur-de-paris-5af82454cd70c60ea6f67aaa",
-        "description": "<img src=\"https:\/\/o1.ldh.be\/image\/5af82453cd70c60ea6f675aa.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Il est 20H40 samedi soir dans le tr\u00e8s fr\u00e9quent\u00e9 quartier de l'Op\u00e9ra \u00e0 Paris: un jeune homme arm\u00e9 d'un couteau d\u00e9ambule lentement et attaque des passants au hasard. Moins de 20 minutes plus tard, il est abattu par la police apr\u00e8s avoir tu\u00e9 un homme ...",
-        "coordonnees": {
-            "Il": {
-                "status": true,
-                "latitude": 40.6331249,
-                "longitude": -89.3985283,
-                "types": [
-                    "administrative_area_level_1",
-                    "political"
-                ]
-            },
-            "Akbar+": {
-                "status": false
-            },
-            "Op\u00e9ra": {
-                "status": false
-            },
-            "Paris": {
-                "status": true,
-                "latitude": 48.856614,
-                "longitude": 2.3522219,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "Moins": {
-                "status": false
-            }
-        },
-        "positivite": 0
-    },
-    {
-        "date": "2018-05-13 11h39",
-        "titre": "Mort du c\u00e9l\u00e8bre photographe sud-africain Sam Nzima",
-        "mots_du_titre": [
-            "Mort",
-            "du",
-            "c\u00e9l\u00e8bre",
-            "photographe",
-            "sud-africain",
-            "Sam",
-            "Nzima"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/mort-du-celebre-photographe-sud-africain-sam-nzima-5af8243dcd7028f079f3b5a0",
-        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5af8243ccd7028f079f3b59e.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>Le c\u00e9l\u00e8bre photographe sud-africain Sam Nzima, qui avait notamment pris une photo embl\u00e9matique en noir et blanc montrant un jeune \u00e9colier noir, mortellement bless\u00e9 par la police de l'apartheid durant le soul\u00e8vement de Soweto en 1976, est d\u00e9c\u00e9d\u00e9. Ag\u00e9 ...",
-        "coordonnees": {
-            "Mort": {
-                "status": false
-            },
-            "Sam": {
-                "status": false
-            },
-            "Nzima": {
-                "status": false
-            },
-            "Soweto": {
-                "status": true,
-                "latitude": -26.2485377,
-                "longitude": 27.8540323,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "Ag\u00e9": {
-                "status": false
-            }
-        },
-        "positivite": 2
-    },
-    {
-        "date": "2018-05-13 11h14",
-        "titre": "Coupe du monde incertaine pour l'attaquant tunisien Taha Yassine Khenissi",
-        "mots_du_titre": [
-            "Coupe",
-            "du",
-            "monde",
-            "incertaine",
-            "pour",
-            "l",
-            "attaquant",
-            "tunisien",
-            "Taha",
-            "Yassine",
-            "Khenissi"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/coupe-du-monde-incertaine-pour-l-attaquant-tunisien-taha-yassine-khenissi-5af81e84cd70c60ea6f67043",
-        "description": "L'attaquant international tunisien, Taha Yassine Khenissi, pourrait \u00eatre indisponible pour la Coupe du monde de football qui d\u00e9bute dans un mois, rapporte l'agence de presse Tunisienne TAP.\"Une IRM effectu\u00e9e par Yassine Khenissi a montr\u00e9 une l\u00e9sion ...",
-        "coordonnees": {
-            "Coupe": {
-                "status": false
-            },
-            "Taha": {
-                "status": false
-            },
-            "Yassine": {
-                "status": false
-            },
-            "Khenissi": {
-                "status": false
-            },
-            "Tunisienne": {
-                "status": true,
-                "latitude": 33.886917,
-                "longitude": 9.537499,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "TAP": {
-                "status": false
-            },
-            "IRM": {
-                "status": false
-            }
-        },
-        "positivite": 1
-    },
-    {
-        "date": "2018-05-13 11h14",
-        "titre": "Eurovision : Isra\u00ebl l'emporte en surfant la vague #MeToo",
-        "mots_du_titre": [
-            "Eurovision",
-            "Isra\u00ebl",
-            "l",
-            "emporte",
-            "en",
-            "surfant",
-            "la",
-            "vague",
-            "#MeToo"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/eurovision-israel-l-emporte-en-surfant-la-vague-metoo-5af81e35cd70c60ea6f67038",
-        "description": "Isra\u00ebl a remport\u00e9 pour la quatri\u00e8me fois de son histoire le concours de l'Eurovision gr\u00e2ce \u00e0 une chanson inspir\u00e9e par l'esprit du mouvement d'\u00e9mancipation des femmes #MeToo, pl\u00e9biscit\u00e9e par des millions de t\u00e9l\u00e9spectateurs \u00e0 l'issue de la finale ...",
-        "coordonnees": {
-            "Eurovision": {
-                "status": false
-            },
-            "Isra\u00ebl": {
-                "status": true,
-                "latitude": 31.046051,
-                "longitude": 34.851612,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            }
-        },
-        "positivite": 2
-    },
-    {
-        "date": "2018-05-13 10h59",
-        "titre": "L'EI revendique des attaques contre des \u00e9glises en Indon\u00e9sie (agence de propagande)",
-        "mots_du_titre": [
-            "L",
-            "EI",
-            "revendique",
-            "des",
-            "attaques",
-            "contre",
-            "des",
-            "\u00e9glises",
-            "en",
-            "Indon\u00e9sie",
-            "agence",
-            "de",
-            "propagande",
-            ""
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/l-ei-revendique-des-attaques-contre-des-eglises-en-indonesie-agence-de-propagande-5af81acfcd7028f079f3add2",
-        "description": "Le groupe jihadiste Etat islamique (EI) a revendiqu\u00e9 dimanche des attentats ayant vis\u00e9 plusieurs \u00e9glises en Indon\u00e9sie et qui ont tu\u00e9 au moins 11 personnes et fait des dizaines de bless\u00e9s.\"Trois attaques kamikazes\" ont fait des morts et des bless\u00e9s ...",
-        "coordonnees": {
-            "EI": {
-                "status": false
-            },
-            "Indon\u00e9sie": {
-                "status": true,
-                "latitude": -0.789275,
-                "longitude": 113.921327,
-                "types": [
-                    "country",
-                    "political"
-                ]
-            },
-            "Etat": {
-                "status": false
-            },
-            "Trois": {
-                "status": false
-            }
-        },
-        "positivite": 1
-    },
-    {
-        "date": "2018-05-11 15h12",
-        "titre": "Tennis: Bertens \u00e9tait trop forte pour Garcia \u00e0 Madrid",
-        "mots_du_titre": [
-            "Tennis",
-            "Bertens",
-            "\u00e9tait",
-            "trop",
-            "forte",
-            "pour",
-            "Garcia",
-            "\u00e0",
-            "Madrid"
-        ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/tennis-bertens-etait-trop-forte-pour-garcia-a-madrid-5af5b320cd70c60ea6eeab51",
-        "description": "Caroline Garcia, derni\u00e8re rescap\u00e9e fran\u00e7aise au tournoi de Madrid, s'est arr\u00eat\u00e9e en demi-finales, mat\u00e9e vendredi en deux petits sets (6-2, 6-2) par la N\u00e9erlandaise Kiki Bertens, une sp\u00e9cialiste de la terre battue.La N.1 tricolore (7e mondiale), qui ...",
-        "coordonnees": {
-            "Tennis": {
-                "status": false
-            },
-            "Bertens": {
-                "status": false
-            },
-            "Garcia": {
-                "status": false
-            },
-            "Madrid": {
-                "status": true,
-                "latitude": 40.4167754,
-                "longitude": -3.7037902,
-                "types": [
-                    "locality",
-                    "political"
-                ]
-            },
-            "Caroline": {
-                "status": true,
-                "latitude": 38.9105018,
-                "longitude": -75.8533954,
-                "types": [
-                    "administrative_area_level_2",
-                    "political"
-                ]
-            },
-            "N\u00e9erlandaise": {
-                "status": false
-            },
-            "Kiki": {
-                "status": false
-            },
-            "N": {
-                "status": false
-            }
-        },
-        "positivite": 0
-    },
-    {
-        "date": "2018-05-11 15h10",
-        "titre": "La Maison Blanche annule un programme de la Nasa sur les gaz \u00e0 effet de serre",
-        "mots_du_titre": [
-            "La",
-            "Maison",
-            "Blanche",
-            "annule",
+            "Marseille",
             "un",
-            "programme",
-            "de",
-            "la",
-            "Nasa",
-            "sur",
-            "les",
-            "gaz",
-            "\u00e0",
-            "effet",
-            "de",
-            "serre"
+            "bless\u00e9"
         ],
-        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/afp\/la-maison-blanche-annule-un-programme-de-la-nasa-sur-les-gaz-a-effet-de-serre-5af5b2a3cd7028f079e9164d",
-        "description": "<img src=\"https:\/\/o1.llb.be\/image\/5af5b2a2cd7028f079e9164b.jpg\" width=\"140\" alt=\"\" border=\"0\" hspace=\"4\" vspace=\"4\" align=\"left\" \/>La Maison Blanche a supprim\u00e9 un programme de la Nasa destin\u00e9 \u00e0 surveiller dans l'atmosph\u00e8re le dioxyde de carbone et le m\u00e9thane consid\u00e9r\u00e9s comme contribuant au r\u00e9chauffement de la plan\u00e8te, a indiqu\u00e9 un porte-parole de l'agence spatiale, confirmant ...",
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/des-hommes-armes-et-cagoules-tirent-vers-des-jeunes-a-marseille-un-blesse-5b031d67cd7028f07a1f6cb2",
+        "description": "Un groupe d'individus cagoul\u00e9s et arm\u00e9s de kalachnikovs ont ouvert le feu vers un groupe de jeunes lundi apr\u00e8s-midi \u00e0 Marseille, rapportent plusieurs m\u00e9dias fran\u00e7ais. Une personne aurait \u00e9t\u00e9 bless\u00e9e l\u00e9g\u00e8rement.Vers 17h, des hommes arm\u00e9s de ...",
         "coordonnees": {
-            "Maison": {
-                "status": false
+            "Marseille": {
+                "status": true,
+                "latitude": 43.296482,
+                "longitude": 5.36978,
+                "types": [
+                    "locality",
+                    "political"
+                ]
             },
-            "Blanche": {
-                "status": false
-            },
-            "Nasa": {
+            "Vers": {
                 "status": false
             }
         },
-        "positivite": 2
+        "lemmes": {
+            "et": {
+                "polarite": 3,
+                "taille": 1,
+                "position": 3,
+                "forme_trouvee": "INC",
+                "nature": "KON"
+            },
+            "bless\u00e9": {
+                "polarite": -3,
+                "taille": 1,
+                "position": 12,
+                "forme_trouvee": "INC",
+                "nature": "NOM"
+            },
+            "un": {
+                "polarite": 3,
+                "taille": 1,
+                "position": 11,
+                "forme_trouvee": "INC",
+                "nature": "DET:ART"
+            },
+            "jeunes": {
+                "polarite": 3,
+                "taille": 1,
+                "position": 8,
+                "forme_trouvee": "INFSING",
+                "nature": "NOM"
+            },
+            "Des": {
+                "polarite": 3,
+                "taille": 1,
+                "position": 0,
+                "forme_trouvee": "MIN",
+                "nature": "PRP:det"
+            },
+            "\u00e0": {
+                "polarite": 2,
+                "taille": 1,
+                "position": 9,
+                "forme_trouvee": "INC",
+                "nature": "PRP"
+            },
+            "Marseille": {
+                "polarite": 3,
+                "taille": 1,
+                "position": 10,
+                "forme_trouvee": "MIN",
+                "nature": "NAM"
+            },
+            "hommes": {
+                "polarite": 3,
+                "taille": 1,
+                "position": 1,
+                "forme_trouvee": "INFSING",
+                "nature": "NOM"
+            },
+            "des": {
+                "polarite": 3,
+                "taille": 1,
+                "position": 7,
+                "forme_trouvee": "INC",
+                "nature": "PRP:det"
+            },
+            "arm\u00e9s": {
+                "polarite": 1,
+                "taille": 1,
+                "position": 2,
+                "forme_trouvee": "INFSING",
+                "nature": "ADJ"
+            },
+            "tirent vers": {
+                "polarite": -3,
+                "taille": 2,
+                "position": 5,
+                "forme_trouvee": "INF",
+                "nature": "SUITE_DE_MOTS"
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 19h21",
+        "titre": "WTA - Nuremberg - Le match du 1er tour entre Alison Van Uytvanck et Kirsten Flipkens se ...",
+        "mots_du_titre": [
+            "WTA",
+            "-",
+            "Nuremberg",
+            "-",
+            "Le",
+            "match",
+            "du",
+            "1er",
+            "tour",
+            "entre",
+            "Alison",
+            "Van",
+            "Uytvanck",
+            "et",
+            "Kirsten",
+            "Flipkens",
+            "se",
+            "",
+            ""
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/wta-nuremberg-le-match-du-1er-tour-entre-alison-van-uytvanck-et-kirsten-flipkens-se-terminera-mardi-5b031c72cd7028f07a1f6cad",
+        "description": "Les deux premi\u00e8res dauphines d'Elise Mertens (WTA 16) dans la hi\u00e9rarchie belge du tennis f\u00e9minin se rencontraient lundi au premier tour du tournoi de Nuremberg. La vainqueur, dans cette \u00e9preuve sur terre battue dot\u00e9e de 250.000 dollars, ne sera ...",
+        "coordonnees": {
+            "WTA": {
+                "status": false
+            },
+            "Nuremberg": {
+                "status": true,
+                "latitude": 49.4521018,
+                "longitude": 11.0766654,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Alison": {
+                "status": false
+            },
+            "Van": {
+                "status": false
+            },
+            "Uytvanck": {
+                "status": false
+            },
+            "Kirsten": {
+                "status": false
+            },
+            "Flipkens": {
+                "status": false
+            },
+            "Elise": {
+                "status": false
+            },
+            "Mertens": {
+                "status": true,
+                "latitude": 32.0584867,
+                "longitude": -96.8966643,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "du": {
+                "nature": "PRP:det",
+                "forme_trouvee": "INC",
+                "position": 6,
+                "taille": 1,
+                "polarite": 3
+            },
+            "match": {
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "position": 5,
+                "taille": 1,
+                "polarite": 3
+            },
+            "Van": {
+                "nature": "NAM",
+                "forme_trouvee": "MIN",
+                "position": 11,
+                "taille": 1,
+                "polarite": 3
+            },
+            "Le": {
+                "nature": "DET:ART",
+                "forme_trouvee": "MIN",
+                "position": 4,
+                "taille": 1,
+                "polarite": 3
+            },
+            "et": {
+                "nature": "KON",
+                "forme_trouvee": "INC",
+                "position": 13,
+                "taille": 1,
+                "polarite": 3
+            },
+            "entre": {
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "position": 9,
+                "taille": 1,
+                "polarite": 3
+            },
+            "Alison": {
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "position": 10,
+                "taille": 1,
+                "polarite": 3
+            },
+            "Nuremberg": {
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "position": 2,
+                "taille": 1,
+                "polarite": -1
+            },
+            "Kirsten": {
+                "nature": "NAM",
+                "forme_trouvee": "INC",
+                "position": 14,
+                "taille": 1,
+                "polarite": 3
+            },
+            "-": {
+                "nature": "PUN",
+                "forme_trouvee": "INC",
+                "position": 3,
+                "taille": 1,
+                "polarite": 3
+            },
+            "se": {
+                "nature": "PRO:PER",
+                "forme_trouvee": "INC",
+                "position": 16,
+                "taille": 1,
+                "polarite": 2
+            },
+            "tour": {
+                "nature": "NOM",
+                "forme_trouvee": "INC",
+                "position": 8,
+                "taille": 1,
+                "polarite": 3
+            }
+        },
+        "polarite": 3
+    },
+    {
+        "date": "2018-05-21 19h16",
+        "titre": "Espagne: 217 migrants secourus en mer en une seule journ\u00e9e",
+        "mots_du_titre": [
+            "Espagne",
+            "217",
+            "migrants",
+            "secourus",
+            "en",
+            "mer",
+            "en",
+            "une",
+            "seule",
+            "journ\u00e9e"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/espagne-217-migrants-secourus-en-mer-en-une-seule-journee-5b031b41cd7028f07a1f3936",
+        "description": "Les services de sauvetage en mer espagnols ont annonc\u00e9 avoir secouru, au cours de la seule journ\u00e9e de lundi, 217 migrants dont un b\u00e9b\u00e9, qui tentaient de gagner l'Espagne \u00e0 bord de 10 embarcations parties d'Afrique.Les migrants essayaient de ...",
+        "coordonnees": {
+            "Espagne": {
+                "status": true,
+                "latitude": 40.46366700000001,
+                "longitude": -3.74922,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Afrique": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "une seule": {
+                "taille": 2,
+                "position": 7,
+                "polarite": -1,
+                "forme_trouvee": "INFSING",
+                "nature": "SUITE_DE_MOTS"
+            },
+            "en": {
+                "taille": 1,
+                "position": 6,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "PRP"
+            },
+            "journ\u00e9e": {
+                "taille": 1,
+                "position": 9,
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "NOM"
+            },
+            "migrants": {
+                "taille": 1,
+                "position": 2,
+                "polarite": -1,
+                "forme_trouvee": "INFSING",
+                "nature": "NOM"
+            },
+            "en mer": {
+                "taille": 2,
+                "position": 4,
+                "polarite": 2,
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS"
+            },
+            "secourus": {
+                "taille": 1,
+                "position": 3,
+                "polarite": 3,
+                "forme_trouvee": "INF",
+                "nature": "VER:pper"
+            },
+            "Espagne": {
+                "taille": 1,
+                "position": 0,
+                "polarite": 3,
+                "forme_trouvee": "MIN",
+                "nature": "NAM"
+            }
+        },
+        "polarite": 2
+    },
+    {
+        "date": "2018-05-21 19h04",
+        "titre": "Argentine: 25 ans de prison pour un cur\u00e9 qui abusait d'enfants",
+        "mots_du_titre": [
+            "Argentine",
+            "25",
+            "ans",
+            "de",
+            "prison",
+            "pour",
+            "un",
+            "cur\u00e9",
+            "qui",
+            "abusait",
+            "d",
+            "enfants"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/argentine-25-ans-de-prison-pour-un-cure-qui-abusait-d-enfants-5b03187acd7028f07a1f2e90",
+        "description": "Un cur\u00e9 argentin de 57 ans a \u00e9t\u00e9 condamn\u00e9 lundi \u00e0 25 ans de prison pour avoir abus\u00e9 sexuellement de sept enfants, dans un s\u00e9minaire de la province d'Entre Rios, dans le nord-est du pays.Justo Jos\u00e9 Ilarraz a dans un premier temps \u00e9t\u00e9 assign\u00e9 \u00e0 ...",
+        "coordonnees": {
+            "Argentine": {
+                "status": true,
+                "latitude": -38.416097,
+                "longitude": -63.61667199999999,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Entre": {
+                "status": true,
+                "latitude": 37.09024,
+                "longitude": -95.712891,
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            "Rios": {
+                "status": false
+            },
+            "Justo": {
+                "status": false
+            },
+            "Jos\u00e9": {
+                "status": false
+            },
+            "Ilarraz": {
+                "status": true,
+                "latitude": 42.9109793,
+                "longitude": -1.5169908,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            }
+        },
+        "lemmes": {
+            "voix humaine": {
+                "polarite": 3,
+                "position": 9,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INC",
+                "taille": 2
+            },
+            "con\u00e7us": {
+                "polarite": 3,
+                "position": 5,
+                "nature": "VER:pper",
+                "forme_trouvee": "INF",
+                "taille": 1
+            },
+            "premiers violons": {
+                "polarite": 3,
+                "position": 1,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INC",
+                "taille": 2
+            },
+            "Les": {
+                "polarite": 3,
+                "position": 0,
+                "nature": "DET:ART",
+                "forme_trouvee": "INFSING",
+                "taille": 1
+            },
+            "sans doute": {
+                "polarite": 3,
+                "position": 3,
+                "nature": "SUITE_DE_MOTS",
+                "forme_trouvee": "INC",
+                "taille": 2
+            },
+            "la": {
+                "polarite": 3,
+                "position": 8,
+                "nature": "DET:ART",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "pour": {
+                "polarite": 3,
+                "position": 6,
+                "nature": "PRP",
+                "forme_trouvee": "INC",
+                "taille": 1
+            },
+            "imiter": {
+                "polarite": 2,
+                "position": 7,
+                "nature": "VER:infi",
+                "forme_trouvee": "INC",
+                "taille": 1
+            }
+        },
+        "polarite": 3
+    },
+    {
+        "date": "2018-05-21 18h42",
+        "titre": "Le pistolet laser de Han Solo bient\u00f4t aux ench\u00e8res \u00e0 Las Vegas",
+        "mots_du_titre": [
+            "Le",
+            "pistolet",
+            "laser",
+            "de",
+            "Han",
+            "Solo",
+            "bient\u00f4t",
+            "aux",
+            "ench\u00e8res",
+            "\u00e0",
+            "Las",
+            "Vegas"
+        ],
+        "lien": "http:\/\/www.dhnet.be\/dernieres-depeches\/belga\/le-pistolet-laser-de-han-solo-bientot-aux-encheres-a-las-vegas-5b031348cd7028f07a1efe73",
+        "description": "Attention riches fans de \"La guerre des \u00e9toiles\": le pistolet-laser de Han Solo, dans \"Le Retour du Jedi\", va bient\u00f4t \u00eatre mis aux ench\u00e8res pour un montant estim\u00e9 entre 300.000 et 500.000 dollars, t\u00e9moin du culte g\u00e9n\u00e9r\u00e9 par l'interminable saga.Ce ...",
+        "coordonnees": {
+            "Han": {
+                "status": false
+            },
+            "Solo": {
+                "status": false
+            },
+            "Las": {
+                "status": false
+            },
+            "Vegas": {
+                "status": true,
+                "latitude": 36.1699412,
+                "longitude": -115.1398296,
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            "Attention": {
+                "status": false
+            },
+            "Retour": {
+                "status": false
+            },
+            "Jedi": {
+                "status": false
+            },
+            "Ce": {
+                "status": false
+            }
+        },
+        "lemmes": {
+            "bient\u00f4t": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "ADV",
+                "position": 6,
+                "taille": 1
+            },
+            "\u00e0": {
+                "polarite": 2,
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "position": 9,
+                "taille": 1
+            },
+            "de": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "PRP",
+                "position": 3,
+                "taille": 1
+            },
+            "aux ench\u00e8res": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "position": 7,
+                "taille": 2
+            },
+            "Le": {
+                "polarite": 3,
+                "forme_trouvee": "MIN",
+                "nature": "DET:ART",
+                "position": 0,
+                "taille": 1
+            },
+            "Han Solo": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "position": 4,
+                "taille": 2
+            },
+            "pistolet laser": {
+                "polarite": -3,
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "position": 1,
+                "taille": 2
+            },
+            "Las Vegas": {
+                "polarite": 3,
+                "forme_trouvee": "INC",
+                "nature": "SUITE_DE_MOTS",
+                "position": 10,
+                "taille": 2
+            }
+        },
+        "polarite": 2
     }
 ]
