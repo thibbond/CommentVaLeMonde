@@ -1,8 +1,5 @@
 <?php
-	// Les commentaire commançant par "!!" sont a enlevés pour un affichage des données json sur le navigateur.
 	// Il faut renommer les adresse (de façon entière) en fonction de l'utilisteur.
-	
-	//!! header('Content-Type: application/json'); // Entête pour préciser que nous allons afficher du contenu au format JSON.
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36,25 +33,101 @@
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////////////////// définition de recuperePositivite(.) ///////////////////////////////////////////////
+	///////////////////////////////////////////////// définition de recupereLemmes(.) ///////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	function recuperePositivite($liste_de_mots){
-		$lignes_retournees = array();
+	
+	function recupereLemmes($liste_de_mots){
+	/* Cette fonction fait appel au script python calcule_lemmes.py avec en argument les mots composant le titre de la dépêche pour retourner une liste de lemmes avec les informations les concernant. */
 		
-		$commande_bash = "./calcule_polarite.py";
+		// Nous préparons la commande bash à exécuter.
+		$commande_bash = "/usr/bin/python3 /home/tibo/public_html/CommentVaLeMonde/calcule_lemmes.py";
 		$taille_liste = count($liste_de_mots);
 		for($j = 0; $j < $taille_liste; $j++){
 			$commande_bash .= " "  . $liste_de_mots[$j];
 		}
 		
-		exec($commande_bash, $lignes_retournees);
+		print("Récupération des lemmes du titre, cette opération peut prendre quelques minutes...");
+		$bla = exec($commande_bash); // Nous exécutons la commande bash.
+		print("Récupération terminée");
+		$lemmesJSON = file_get_contents('/home/tibo/public_html/CommentVaLeMonde/lemmes.json'); // Nous récupérons le contenu du fichier lemmes.json édité par l'exécution du fichier python.
+		$nos_lemmes = json_decode($lemmesJSON, true); // Nous convertissons le format JSON récupéré en liste.
 		
-		return intval($lignes_retournees[count($lignes_retournees)-1]);
-		
+		return $nos_lemmes; // Nous retournons la liste récupérée.
 	}
 	
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////// définition de calculePolarite(.) ///////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
+	function calculePolarite($liste_de_lemmes){
+	/* Cette fonction calcule la polarité du titre de la dépêche en fonction des lemmes qui le compose.*/
+		
+		print("Calcul de la polarité du titre ::");
+		$polarite = 0;
+		$nombre_de_lemmes = 0;
+		
+		$mots_interdits = array("l", "d", "qu", "L", "D", "Qu", "s", "S", "t", "T", "m", "M", "et", "Et"); // Si un lemme fait parti de cette liste, alors il ne sera pas pris en compte pour le calcul de la polarité.
+		
+		/* Nous allons parcourir chaque lemme de notre liste, s'il n'est pas un adjectif ou un adverbe, s'il ne fait pas parti de la liste ci-dessus, et si sa polarité n'est pas nulle, alors nous le prenons en compte pour le calcul de la polarité du titre.*/
+		foreach ($liste_de_lemmes as $lemme => $val) {
+			if ( (in_array($lemme, $mots_interdits) == false) && (($val["nature"] != "ADJ") && ($val["nature"] != "ADV")) ){
+				$polarite += $val["polarite"];
+				if ($val["polarite"] != 0){
+					$nombre_de_lemmes += 1;
+				}
+			}
+		}
+		
+		/* Nous allons chercher les adjectifs. Si ce dernier ne fait pas parti de la liste des mots interdits, si sa polarité n'est pas nulle, si de plus il précède un nom dont la polarité n'est pas nulle, alors nous multiplions sa polarité avec celle du nom qu'il précède. (La multiplication de deux négatifs doit être négative) */
+		foreach ($liste_de_lemmes as $lemme => $val) {
+			if ( (in_array($lemme, $mots_interdits) == false) && ($val["nature"] == "ADJ") && ($val["polarite"] != 0) ){
+				foreach ($liste_de_lemmes as $lemme_suivant => $val_suivante) {
+					if ( ($val_suivante["position"] == $val["position"] + 1) && (( (in_array($lemme_suivant, $mots_interdits) == false) && ($val_suivante["nature"] == "NOM")) && ($val_suivante["polarite"] != 0)) ) {
+						if ($val["polarite"] > 1){
+							$polarite += $val_suivante["polarite"] * ($val["polarite"] - 1);
+							$nombre_de_lemmes += $val["polarite"] - 1;
+						}else{
+							if($val_suivante["polarite"] < 0){
+								$polarite += $val_suivante["polarite"] * (abs($val["polarite"]) - 1);
+								$nombre_de_lemmes += abs($val["polarite"]) - 1;
+							}else{
+								$polarite -= $val_suivante["polarite"] * (abs($val["polarite"]) - 1);
+								$nombre_de_lemmes += abs($val["polarite"]) - 1;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		/* Nous faisons la même chose pour les adverbes. */
+		foreach ($liste_de_lemmes as $lemme => $val) {
+			if ( (in_array($lemme, $mots_interdits) == false) && ($val["nature"] == "ADV") && ($val["polarite"] != 0) ){
+				foreach ($liste_de_lemmes as $lemme_suivant => $val_suivante) {
+					if ( ($val_suivante["position"] == $val["position"] + 1) && (( (in_array($lemme_suivant, $mots_interdits) == false) && ($val_suivante["nature"] == "VER")) && ($val_suivante["polarite"] != 0)) ) {
+						if ($val["polarite"] > 1){
+							$polarite += $val_suivante["polarite"] * ($val["polarite"] - 1);
+							$nombre_de_lemmes += $val["polarite"] - 1;
+						}else{
+							if($val_suivante["polarite"] < 0){
+								$polarite += $val_suivante["polarite"] * (abs($val["polarite"]) - 1);
+								$nombre_de_lemmes += abs($val["polarite"]) - 1;
+							}else{
+								$polarite -= $val_suivante["polarite"] * (abs($val["polarite"]) - 1);
+								$nombre_de_lemmes += abs($val["polarite"]) - 1;
+							}
+						}
+					}
+				}
+			}
+		}
+				
+		print("Calcul terminé");
+		return round($polarite/$nombre_de_lemmes); /* Nous retournons la valeur arrondie de la moyenne.*/
+	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	////////////////////////////////////////////////// définition de analyseTitre(.) ////////////////////////////////////////////////////
@@ -63,17 +136,17 @@
 	
 	function analyseToponyme($mots){
 	/* Cette fonction prend en paramètre une liste de mots. Pour chaque mots commençant par une majuscule, elle récupère ses coordonnées géographiques. */
-		
+		$coordonnees = array();
 		echo("Analyse des mots du titre ::\n");
 		
-		$expression="#^[A-Z]|Â|Ê|Î|Ô|Û|Ä|Ë|Ï|Ö|Ü|À|Æ|Ç|É|È|Œ|Ù#";
+		$expression="#^[A-Z]|Â|Ê|Î|Ô|Û|Ä|Ë|Ï|Ö|Ü|À|Æ|Ç|É|È|Œ|Ù#"; // Nous allons utiliser les expressions régulières, celle-ci signifie que nous recherchons l'un de ces caractères visible en première position du mot analysé.
 		$nb_de_mots = count($mots);
 		
 		for($i=0; $i<$nb_de_mots; $i++)
 			/* La fonction preg_match(.,.) permet de faire des recherches d'expressions régulières. */
 			if(preg_match($expression, $mots[$i])){
 				/* Nous ne voulons pas récupérer les coordonnées des articles. */
-				if ( ($mots[$i] != "Le") && ($mots[$i] != "La") && ($mots[$i] != "Les") && ($mots[$i] != "Un") && ($mots[$i] != "Une") && ($mots[$i] != "Des") && ($mots[$i] != "L") && ($mots[$i] != "Et") && ($mots[$i] != "De") && ($mots[$i] != "En") ){
+				if ( ($mots[$i] != "Le") && ($mots[$i] != "La") && ($mots[$i] != "Les") && ($mots[$i] != "Un") && ($mots[$i] != "Une") && ($mots[$i] != "Des") && ($mots[$i] != "L") && ($mots[$i] != "Et") && ($mots[$i] != "De") && ($mots[$i] != "En") && ($mots[$i] != "C")){
 					$coordonnees[$mots[$i]] = recupereCoordonnees($mots[$i]);
 				}
 			}
@@ -94,6 +167,7 @@
 		
 		print("Récupération des coordonnées géographiques pour \"$adresse\" :::\n");
 		
+		// Nous avons pu récupérer différentes clés pour l'utilisation de l'API GoogleMaps.
 		$cleAPIGoogleMaps = 'AIzaSyCSKYf8twyuQfJYZYIgE8qHxcrOhZJsuDo';
 		$cleZak = 'AIzaSyBnLHV0Uq6qBmHs-O0ThzpzB1Ma7CZIdvs';
 		$autreCle = 'AIzaSyA9DXz98lN5tdgO8vHkqy7jfrQypfdr_zU';
@@ -105,17 +179,16 @@
 		$reponseTab = json_decode($reponseJSON, true);
 		
 		$coordonnees = array();
-		$coordonnees['status'] = false;
+		$coordonnees['status'] = false; // Valeur par défaut (si nous ne trouvons pas de coordonnées).
 		
-		if ($reponseTab == false){
+		if ($reponseTab == false){ // Cela signifie qu'il n'y a pas eu de format JSON retourné par la requête.
 			echo ("Erreur lors de la récupération des coordonnées.\n");
-			$coordonnees['erreur_recuperation'] = true;
 		}else{
 			echo("Statut de la réponse de GoogleMaps : " . $reponseTab['status'] . ".\n");
 			if ($reponseTab['status'] == "OK"){
-				for($i = 0; $i < count($reponseTab['results']); $i++){
-					for($j=0; $j < count($reponseTab['results'][$i]['types']); $j++){
-						if($reponseTab['results'][$i]['types'][$j] == "political"){
+				for($i = 0; $i < count($reponseTab['results']); $i++){ // Nous parcourrons chaque lieu retourné par GoogleMaps.
+					for($j=0; $j < count($reponseTab['results'][$i]['types']); $j++){ // Pour chaque lieu, nous analysons ses types.
+						if($reponseTab['results'][$i]['types'][$j] == "political"){ // Si "political" fait parti de la liste des types du lieu, alors nous récupérons les coordonnées géographiques associées.
 							$coordonnees['status'] = true;
 							$coordonnees['latitude'] = $reponseTab['results'][$i]['geometry']['location']['lat'];
 							$coordonnees['longitude'] = $reponseTab['results'][$i]['geometry']['location']['lng'];
@@ -153,15 +226,13 @@
 		$phrase = str_replace("!", " ", $phrase);	
 		$phrase = str_replace("?", " ", $phrase);
 		$phrase = str_replace(".", " ", $phrase);
-		$phrase = str_replace("'", " ", $phrase);
 		$phrase = str_replace(",", " ", $phrase);
-		// $titre = str_replace("-", " ", $titre);
 		$phrase = str_replace("(", " ", $phrase);
 		$phrase = str_replace(")", " ", $phrase);
 		
 		$liste_des_mots = explode(' ', $phrase);
 		
-		// nous supprimons les mots vides.
+		// Nous supprimons les mots vides.
 		for($i = 0; $i < count($liste_des_mots); $i++){
 			if ($liste_des_mots[$i] == ""){
 				unset($liste_des_mots[$i]);
@@ -190,48 +261,58 @@
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////// Comparaison et Ajout des dépêches à notre liste de dépêches ///////////////////////////////////
+	///////////////////////////////////// comparaison et ajout des dépêches à notre liste de dépêches ///////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	echo("Récupération du contenu du fichier \"depeches.json\".\n");
-	$depechesJSON = file_get_contents('depeches.json'); // Récupère le contenu du fichier .json sous forme d'une chaine de caractères
-	$nos_depeches = json_decode($depechesJSON, true); // Converti cette chaine de caractère en une liste ($liste = false si le fichier .json est mal écrit
-	$premiere_date_de_nos_depeches = convertionDate($nos_depeches[0]['date']);
+	$depechesJSON = file_get_contents('/home/tibo/public_html/CommentVaLeMonde/depeches.json'); // Récupère le contenu du fichier .json sous forme d'une chaine de caractères.
+	$nos_depeches = json_decode($depechesJSON, true); // Converti cette chaine de caractère en une liste ($liste = false si le fichier .json est mal écrit).
+	$premiere_date_de_nos_depeches = convertionDate($nos_depeches[0]['date']); // Nous utilisons cette fonction pour pouvoir comparer la date de la première dépêche enregistrée dans notre fichier JSON avec les dates des dépêches récupérées.
 	
 	$depeches_du_site = recupereDepeches();
 
 	
 	if ($nos_depeches != false){ // Si le fichier .json est bien écrit.
-		$i = count($depeches_du_site); // Pour l'instant cette valeur vaut toujours 20.
-		// test - echo("Le fichier .json est bien écrit.\n");
+		$i = count($depeches_du_site); // Cette valeur vaut toujours 20.
 		
 		/* Nous allons parcourrir en sens inverse le tableau $depeches_du_site[], c-à-d, de sa dépêche la plus ancienne à sa dépêche la plus récente. Nous arrêtons le parcours dès que nous trouvons une dépêche postérieure à la première de nos dépêches enregistrées. */ 
 		do{
 			$i--;
 			$date_a_comparer = convertionDate($depeches_du_site[$i]['date']);
 		}while ( ($i > 0) && ($date_a_comparer <= $premiere_date_de_nos_depeches) );
-		// test :: echo($i\n);
 		
 		if($i > 0){ // Si $i est strictement positif, cela veut dire que la date de la dépêche n° $i de $depeches_du_site est postérieur à la première date de nos dépêches enregistrées. Nous pouvons donc ajouter toutes les autres dépêches du site (de 0 à $i) à nos dépêches. 
 			for($j= $i; $j > -1; $j--){
-			 	array_unshift($nos_depeches, $depeches_du_site[$j]);
+				for($k =0; $k < 10; $k ++){
+					if( $nos_depeches[$k]['titre'] == $depeches_du_site[$j]['titre'] ){
+						unset($nos_depeches[$k]);
+					}
+				}
+				
+				array_unshift($nos_depeches, $depeches_du_site[$j]); // Nous rajoutons au début de notre liste de dépêches les dépêches récupérées dont la date est postérieure à la première dépêche de notre liste.
 			 	$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['mots_du_titre']);
 			 	$nos_depeches[0]['coordonnees'] = array_merge($nos_depeches[0]['coordonnees'], analyseToponyme(decomposeMots($nos_depeches[0]['description'])));
-			 	$nos_depeches[0]['positivite'] = recuperePositivite($nos_depeches[0]["mots_du_titre"]);
+			 	$nos_depeches[0]["lemmes"] = recupereLemmes($nos_depeches[0]["mots_du_titre"]);
+			 	$nos_depeches[0]['polarite'] = calculePolarite($nos_depeches[0]["lemmes"]);		
 			}
 		}else{
-			if($i == 0){ // Si $i est nulle, alors il faut comparer les dates, et en fonction, ajouter ou non $depeche_du_site[0] à nos dépêches. 
-				if($date_a_comparer > $premiere_date_de_nos_depeches){
+			if($i == 0){ // Si $i est nulle, alors il faut comparer les dates, et en fonction, ajouter ou non $depeche_du_site[0] à nos dépêches.
+				if( ($date_a_comparer > $premiere_date_de_nos_depeches) ){
+					for($k=0; $k < 10; $k++){
+						if($nos_depeches[$k]['titre'] == $depeches_du_site[0]['titre']){
+							unset($nos_depeches[$k]);
+						}
+					}
 					array_unshift($nos_depeches, $depeches_du_site[0]);
 					$nos_depeches[0]['coordonnees'] = analyseToponyme($nos_depeches[0]['mots_du_titre']);
 					$nos_depeches[0]['coordonnees'] = array_merge($nos_depeches[0]['coordonnees'], analyseToponyme(decomposeMots($nos_depeches[0]['description'])));
-					$nos_depeches[0]['positivite'] = recuperePositivite($nos_depeches[0]["mots_du_titre"]);
+			 		$nos_depeches[0]["lemmes"] = recupereLemmes($nos_depeches[0]["mots_du_titre"]);
+			 		$nos_depeches[0]['polarite'] = calculePolarite($nos_depeches[0]["lemmes"]);
 				}
 			}
 		}
 	}else{ // Si le fichier .json est mal écrit alors nous récupérons toutes les dépêches du site.
-		
 		echo("Le fichier \"depeches.json\" est mal écrit.\n");
 		$nos_depeches = $depeches_du_site;
 	}
@@ -245,17 +326,12 @@
 	echo("Ecriture du fichier \"depeches.json\" :::\n");
 	
 	$depechesJSON = json_encode($nos_depeches, JSON_PRETTY_PRINT); // L'option JSON_PRETTY_PRINT permet d'avoir un affichage LISIBLE POUR L'HUMAIN des données dans le fichier.
-	file_put_contents('depeches.json', $depechesJSON); // Enregistre la chaîne de caractères dans le fichier .json
+	file_put_contents('/home/tibo/public_html/CommentVaLeMonde/depeches.json', $depechesJSON); // Enregistre la chaîne de caractères dans le fichier .json
 	
 	echo("Ecriture terminée.\n");
-	//!! echo $depechesJSON; // Nous affichons sous format JSON (chaîne de caractères) notre tableau.
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//////////////////////////////////////////////////// Tout s'est bien passé //////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		
-	//!! http_response_code(200); // Nous prévenons que tout s'est bien passé et que c'est trop la fête.
-	
 ?>
