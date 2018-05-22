@@ -1,0 +1,58 @@
+{
+    "l": {
+        "polarite": 3,
+        "nature": "ADJ",
+        "forme_trouvee": "INC",
+        "taille": 1,
+        "position": 9
+    },
+    "se penche sur": {
+        "polarite": 3,
+        "nature": "SUITE_DE_MOTS",
+        "forme_trouvee": "INF",
+        "taille": 3,
+        "position": 3
+    },
+    "interdisant": {
+        "polarite": -3,
+        "nature": "VER:ppre",
+        "forme_trouvee": "INF",
+        "taille": 1,
+        "position": 8
+    },
+    "sud-cor\u00e9enne": {
+        "polarite": 3,
+        "nature": "ADJ",
+        "forme_trouvee": "INFSING",
+        "taille": 1,
+        "position": 2
+    },
+    "La justice": {
+        "polarite": 2,
+        "nature": "SUITE_DE_MOTS",
+        "forme_trouvee": "MIN",
+        "taille": 2,
+        "position": 0
+    },
+    "avortement": {
+        "polarite": -1,
+        "nature": "NOM",
+        "forme_trouvee": "INC",
+        "taille": 1,
+        "position": 10
+    },
+    "loi": {
+        "polarite": 2,
+        "nature": "NOM",
+        "forme_trouvee": "INC",
+        "taille": 1,
+        "position": 7
+    },
+    "la": {
+        "polarite": 3,
+        "nature": "DET:ART",
+        "forme_trouvee": "INC",
+        "taille": 1,
+        "position": 6
+    }
+}
